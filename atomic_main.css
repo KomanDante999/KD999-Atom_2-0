@@ -56,13 +56,14 @@
 .bc-cl_pdd-box {background-clip:padding-box;}
 .bc-cl_txt {background-clip:text;}
 
+.bc-or_brd-box {background-origin:border-box;}
+.bc-or_cnt-box {background-origin:content-box;}
+.bc-or_pdd-box {background-origin:padding-box;}
+
 .bc-cl_blc {background-color:black;}
 .bc-cl_wht {background-color:white;}
 .bc-cl_inh {background-color:inherit;}
 .bc-cl_int {background-color:initial;}
-
-background-origin
-
 
 background-position
 background-position-x
