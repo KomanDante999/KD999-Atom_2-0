@@ -68,14 +68,10 @@
 .bc-ps_lft_top {background-position:left,top;}
 .bc-ps_lft_cen {background-position:left,center;}
 .bc-ps_lft_btt {background-position:left,bottom;}
+.bc-ps_cnt_top {background-position:center,top;}
+.bc-ps_cnt_cen {background-position:center,center;}
+.bc-ps_cnt_btt {background-position:center,bottom;}
 
-
-
-left center
-left bottom
-center top
-center center
-center bottom
 right top
 right center
 right bottom
