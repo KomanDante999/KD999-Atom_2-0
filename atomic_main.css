@@ -83,6 +83,14 @@ right bottom
 
 background-position-x
 background-position-y
+
+.bc-rp_rpt {background-repeat:repeat;}
+.bc-rp_rpt-x {background-repeat:repeat-x;}
+.bc-rp_rpt-y {background-repeat:repeat-y;}
+.bc-rp_n-rpt {background-repeat:no-repeat;}
+.bc-rp_rnd {background-repeat:round;}
+.bc-rp_spc {background-repeat:space;}
+
 background-repeat
 background-size
 block-size
