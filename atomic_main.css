@@ -65,9 +65,9 @@
 .bc-cl_inh {background-color:inherit;}
 .bc-cl_int {background-color:initial;}
 
-.bc-ps_lft_top {background-position:left,top;}
-.bc-ps_lft_cnt {background-position:left,center;}
-.bc-ps_lft_btt {background-position:left,bottom;}
+.bc-ps_lft_tp {background-position:left,top;}
+.bc-ps_lft_ct {background-position:left,center;}
+.bc-ps_lft_bt {background-position:left,bottom;}
 
 
 
