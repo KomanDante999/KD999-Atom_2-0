@@ -69,20 +69,12 @@
 .bc-ps_lft_cen {background-position:left,center;}
 .bc-ps_lft_btt {background-position:left,bottom;}
 
-
-
-left center
-left bottom
-center top
-center center
-center bottom
-right top
-right center
-right bottom
-
-
-background-position-x
-background-position-y
+.bc-ps-x_lft {background-position-x:left;}
+.bc-ps-x_cnt {background-position-x:center;}
+.bc-ps-x_rgh {background-position-x:right;}
+.bc-ps-y_top {background-position-y:top;}
+.bc-ps-y_cnt {background-position-y:center;}
+.bc-ps-y_btt {background-position-y:bottom;}
 
 .bc-rp_rpt {background-repeat:repeat;}
 .bc-rp_rpt-x {background-repeat:repeat-x;}
