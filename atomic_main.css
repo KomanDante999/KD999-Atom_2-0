@@ -65,7 +65,22 @@
 .bc-cl_inh {background-color:inherit;}
 .bc-cl_int {background-color:initial;}
 
-background-position
+.bc-ps_lft_top {background-position:left,top;}
+.bc-ps_lft_cnt {background-position:left,center;}
+.bc-ps_lft_btt {background-position:left,bottom;}
+
+
+
+left center
+left bottom
+center top
+center center
+center bottom
+right top
+right center
+right bottom
+
+
 background-position-x
 background-position-y
 background-repeat
