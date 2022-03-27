@@ -143,6 +143,36 @@ box-decoration-break
 .bx_sz_inh {box-sizing:inherit;}
 .bx_sz_ini {box-sizing:initial;}
 
+
+/* table */
+.cp-sd_tp {caption-side:top;}
+.cp-sd_bt {caption-side:bottom;}
+
+/* cursor */
+.cr-c_aut {caret-color:auto;}
+.cr-c_black {caret-color:black;}
+.cr-c_white {caret-color:white;}
+
+clear
+clip
+color
+column-count
+column-fill
+column-gap
+column-rule
+column-rule-color
+column-rule-style
+column-rule-width
+column-span
+column-width
+columns
+content
+counter-increment
+counter-reset
+cursor
+
+
+
 /*position*/
 .pos_rel {position: relative;}
 .pos_abs {position: absolute;}
