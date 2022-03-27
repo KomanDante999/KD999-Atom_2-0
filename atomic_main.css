@@ -123,12 +123,14 @@ border-top-width
 border-width
 bottom
 box-decoration-break
-box-shadow
-box-sizing
 
+.bx-sh_ins {box-shadow:inset;}
+.bx-sh_non {box-shadow:none;}
 
-
-
+.bx_sz_br-bx {box-sizing:border-box;}
+.bx_sz_c-bx {box-sizing:content-box;}
+.bx_sz_inh {box-sizing:inherit;}
+.bx_sz_ini {box-sizing:initial;}
 
 /*position*/
 .pos_rel {position: relative;}
