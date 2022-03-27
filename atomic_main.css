@@ -87,14 +87,28 @@
 .bc-sz_con {background-size:contain;}
 .bc-sz_cov {background-size:cover;}
 
-.br_1 {border: 1px solid transparent;}
-.br_2 {border: 2px solid transparent;}
-.br_3 {border: 3px solid transparent;}
-.br_4 {border: 4px solid transparent;}
+.br_1 {border:1px solid transparent;}
+.br_2 {border:2px solid transparent;}
+.br_3 {border:3px solid transparent;}
+.br_4 {border:4px solid transparent;}
 
+.br-tp_1 {border-top:1px solid transparent;}
+.br-tp_2 {border-top:2px solid transparent;}
+.br-tp_3 {border-top:3px solid transparent;}
+.br-tp_4 {border-top:4px solid transparent;}
+.br-rg_1 {border-right:1px solid transparent;}
+.br-rg_2 {border-right:2px solid transparent;}
+.br-rg_3 {border-right:3px solid transparent;}
+.br-rg_4 {border-right:4px solid transparent;}
+.br-bt_1 {border-bottom:1px solid transparent;}
+.br-bt_2 {border-bottom:2px solid transparent;}
+.br-bt_3 {border-bottom:3px solid transparent;}
+.br-bt_4 {border-bottom:4px solid transparent;}
+.br-lf_1 {border-left:1px solid transparent;}
+.br-lf_2 {border-left:2px solid transparent;}
+.br-lf_3 {border-left:3px solid transparent;}
+.br-lf_4 {border-left:4px solid transparent;}
 
-border
-border-bottom
 border-bottom-color
 border-bottom-left-radius
 border-bottom-right-radius
@@ -103,18 +117,15 @@ border-bottom-width
 border-collapse
 border-color
 border-image
-border-left
 border-left-color
 border-left-style
 border-left-width
 border-radius
-border-right
 border-right-color
 border-right-style
 border-right-width
 border-spacing
 border-style
-border-top
 border-top-color
 border-top-left-radius
 border-top-right-radius
