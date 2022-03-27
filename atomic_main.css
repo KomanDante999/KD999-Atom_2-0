@@ -87,7 +87,12 @@
 .bc-sz_ {background-size:contain;}
 .bc-sz_ {background-size:cover;}
 
-block-size
+.br_1 {border: 1px solid transparent;}
+.br_2 {border: 2px solid transparent;}
+.br_3 {border: 3px solid transparent;}
+.br_4 {border: 4px solid transparent;}
+
+
 border
 border-bottom
 border-bottom-color
@@ -234,9 +239,6 @@ box-sizing
 
 
 /*decoration*/
-.brd_1 {border: 1px solid transparent;}
-.brd_2 {border: 2px solid transparent;}
-.brd_3 {border: 3px solid transparent;}
 
 .brd-b_1 {border-bottom: 1px solid transparent;}
 .brd-b_2 {border-bottom: 2px solid transparent;}
