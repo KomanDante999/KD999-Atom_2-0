@@ -51,14 +51,14 @@
 .bc-bl-md_scre {background-blend-mode:screen;}
 .bc-bl-md_s-lig {background-blend-mode:soft-light;}
 
-.bc-cl_br-box {background-clip:border-box;}
-.bc-cl_con-box {background-clip:content-box;}
-.bc-cl_pd-box {background-clip:padding-box;}
+.bc-cl_br-bx {background-clip:border-box;}
+.bc-cl_con-bx {background-clip:content-box;}
+.bc-cl_pd-bx {background-clip:padding-box;}
 .bc-cl_tx {background-clip:text;}
 
-.bc-or_br-box {background-origin:border-box;}
-.bc-or_con-box {background-origin:content-box;}
-.bc-or_pd-box {background-origin:padding-box;}
+.bc-or_br-bx {background-origin:border-box;}
+.bc-or_con-bx {background-origin:content-box;}
+.bc-or_pd-bx {background-origin:padding-box;}
 
 .bc-c_blc {background-color:black;}
 .bc-c_wht {background-color:white;}
@@ -153,7 +153,7 @@ box-decoration-break
 .cr-c_black {caret-color:black;}
 .cr-c_white {caret-color:white;}
 
-clear
+.cl_bot {clear: both;}
 clip
 color
 column-count
