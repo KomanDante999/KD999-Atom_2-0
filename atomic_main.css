@@ -153,7 +153,15 @@ box-decoration-break
 .cr-c_black {caret-color:black;}
 .cr-c_white {caret-color:white;}
 
-.cl_bot {clear: both;}
+.cl_bot {clear:both;}
+.cl_bot {clear:left;}
+.cl_bot {clear:right;}
+.cl_bot {clear:none;}
+
+
+
+
+
 clip
 color
 column-count
