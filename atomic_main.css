@@ -60,10 +60,10 @@
 .bc-or_con-bx {background-origin:content-box;}
 .bc-or_pd-bx {background-origin:padding-box;}
 
-.bc-c_blc {background-color:black;}
-.bc-c_wht {background-color:white;}
+.bc-c_ {background-color:black;}
+.bc-c_ {background-color:white;}
 .bc-c_inh {background-color:inherit;}
-.bc-c_int {background-color:initial;}
+.bc-c_ {background-color:initial;}
 
 .bc-ps_lf_tp {background-position:left,top;}
 .bc-ps_lf_cen {background-position:left,center;}
@@ -110,22 +110,22 @@
 .br-lf_3 {border-left:3px solid transparent;}
 .br-lf_4 {border-left:4px solid transparent;}
 
-.br-tp-c_ {border-top-color:inherit;}
-.br-tp-c_ {border-top-color:initial;}
-.br-tp-c_ {border-top-color:black;}
-.br-tp-c_ {border-top-color:white;}
-.br-rg-c_ {border-right-color:inherit;}
-.br-rg-c_ {border-right-color:initial;}
-.br-rg-c_ {border-right-color:black;}
-.br-rg-c_ {border-right-color:white;}
-.br-bt-c_ {border-bottom-color:inherit;}
-.br-bt-c_ {border-bottom-color:initial;}
-.br-bt-c_ {border-bottom-color:black;}
-.br-bt-c_ {border-bottom-color:white;}
-.br-lf-c_ {border-left-color:inherit;}
-.br-lf-c_ {border-left-color:initial;}
-.br-lf-c_ {border-left-color:black;}
-.br-lf-c_ {border-left-color:white;}
+.br-tp-c {border-top-color:inherit;}
+.br-tp-c {border-top-color:initial;}
+.br-tp-c {border-top-color:black;}
+.br-tp-c {border-top-color:white;}
+.br-rg-c {border-right-color:inherit;}
+.br-rg-c {border-right-color:initial;}
+.br-rg-c {border-right-color:black;}
+.br-rg-c {border-right-color:white;}
+.br-bt-c {border-bottom-color:inherit;}
+.br-bt-c {border-bottom-color:initial;}
+.br-bt-c {border-bottom-color:black;}
+.br-bt-c {border-bottom-color:white;}
+.br-lf-c {border-left-color:inherit;}
+.br-lf-c {border-left-color:initial;}
+.br-lf-c {border-left-color:black;}
+.br-lf-c {border-left-color:white;}
 
 border-bottom-color
 border-bottom-left-radius
