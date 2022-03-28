@@ -154,9 +154,9 @@ box-decoration-break
 .cr-c_white {caret-color:white;}
 
 .cl_bot {clear:both;}
-.cl_lf {clear:left;}
-.cl_rg {clear:right;}
-.cl_non {clear:none;}
+.cl {clear:left;}
+.cl {clear:right;}
+.cl {clear:none;}
 
 
 
