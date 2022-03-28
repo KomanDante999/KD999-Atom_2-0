@@ -60,17 +60,10 @@
 .bc-or_con-bx {background-origin:content-box;}
 .bc-or_pd-bx {background-origin:padding-box;}
 
-<<<<<<< HEAD
-.bc-c_ {background-color:black;}
-.bc-c_ {background-color:white;}
-.bc-c_inh {background-color:inherit;}
-.bc-c_ {background-color:initial;}
-=======
 .bc-c_black {background-color:black;}
 .bc-c_white {background-color:white;}
 .bc-c_inh {background-color:inherit;}
 .bc-c_ini {background-color:initial;}
->>>>>>> var2
 
 .bc-ps_lf_tp {background-position:left,top;}
 .bc-ps_lf_cen {background-position:left,center;}
