@@ -60,10 +60,17 @@
 .bc-or_con-bx {background-origin:content-box;}
 .bc-or_pd-bx {background-origin:padding-box;}
 
+<<<<<<< HEAD
 .bc-c_ {background-color:black;}
 .bc-c_ {background-color:white;}
 .bc-c_inh {background-color:inherit;}
 .bc-c_ {background-color:initial;}
+=======
+.bc-c_black {background-color:black;}
+.bc-c_white {background-color:white;}
+.bc-c_inh {background-color:inherit;}
+.bc-c_ini {background-color:initial;}
+>>>>>>> var2
 
 .bc-ps_lf_tp {background-position:left,top;}
 .bc-ps_lf_cen {background-position:left,center;}
@@ -110,22 +117,22 @@
 .br-lf_3 {border-left:3px solid transparent;}
 .br-lf_4 {border-left:4px solid transparent;}
 
-.br-tp-c {border-top-color:inherit;}
-.br-tp-c {border-top-color:initial;}
-.br-tp-c {border-top-color:black;}
-.br-tp-c {border-top-color:white;}
-.br-rg-c {border-right-color:inherit;}
-.br-rg-c {border-right-color:initial;}
-.br-rg-c {border-right-color:black;}
-.br-rg-c {border-right-color:white;}
-.br-bt-c {border-bottom-color:inherit;}
-.br-bt-c {border-bottom-color:initial;}
-.br-bt-c {border-bottom-color:black;}
-.br-bt-c {border-bottom-color:white;}
-.br-lf-c {border-left-color:inherit;}
-.br-lf-c {border-left-color:initial;}
-.br-lf-c {border-left-color:black;}
-.br-lf-c {border-left-color:white;}
+.br-tp-c_inh {border-top-color:inherit;}
+.br-tp-c_ini {border-top-color:initial;}
+.br-tp-c_black {border-top-color:black;}
+.br-tp-c_white {border-top-color:white;}
+.br-rg-c_inh {border-right-color:inherit;}
+.br-rg-c_ini {border-right-color:initial;}
+.br-rg-c_black {border-right-color:black;}
+.br-rg-c_white {border-right-color:white;}
+.br-bt-c_inh {border-bottom-color:inherit;}
+.br-bt-c_ini {border-bottom-color:initial;}
+.br-bt-c_black {border-bottom-color:black;}
+.br-bt-c_white {border-bottom-color:white;}
+.br-lf-c_inh {border-left-color:inherit;}
+.br-lf-c_ini {border-left-color:initial;}
+.br-lf-c_black {border-left-color:black;}
+.br-lf-c_white {border-left-color:white;}
 
 border-bottom-color
 border-bottom-left-radius
