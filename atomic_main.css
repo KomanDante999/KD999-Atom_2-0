@@ -116,11 +116,12 @@
 .br-c_white {border-color:white;}
 
 .br-im_non {border-image:none;}
-.br-im_non {border-image:none;}
-.br-im_non {border-image:none;}
-.br-im_non {border-image:none;}
-.br-im_non {border-image:none;}
-.br-im_non {border-image:none;}
+.br-im_aut {border-image:auto;}
+.br-im_fil {border-image:fill;}
+.br-im_rep {border-image:repeat;}
+.br-im_rou {border-image:round;}
+.br-im_spa {border-image:space;}
+.br-im_str {border-image:stretch;}
 
 .br-rg-c_inh {border-right-color:inherit;}
 .br-rg-c_ini {border-right-color:initial;}
@@ -135,19 +136,19 @@
 .br-lf-c_black {border-left-color:black;}
 .br-lf-c_white {border-left-color:white;}
 
-.br-st_ {border-style:dashed;}
-.br-st_ {border-style:dotted;}
-.br-st_ {border-style:double;}
-.br-st_ {border-style:groove;}
-.br-st_ {border-style:hidden;}
-.br-st_ {border-style:inherit;}
-.br-st_ {border-style:initial;}
-.br-st_ {border-style:inset;}
-.br-st_ {border-style:none;}
-.br-st_ {border-style:outset;}
-.br-st_ {border-style:ridge;}
-.br-st_ {border-style:solid;}
-.br-st_ {border-style:unset;}
+.br-st_das {border-style:dashed;}
+.br-st_dot {border-style:dotted;}
+.br-st_dou {border-style:double;}
+.br-st_gro {border-style:groove;}
+.br-st_hid {border-style:hidden;}
+.br-st_inh {border-style:inherit;}
+.br-st_ini {border-style:initial;}
+.br-st_ins {border-style:inset;}
+.br-st_non {border-style:none;}
+.br-st_out {border-style:outset;}
+.br-st_rig {border-style:ridge;}
+.br-st_sol {border-style:solid;}
+.br-st_uns {border-style:unset;}
 
 border-radius
 border-bottom-style
