@@ -4,8 +4,6 @@ accent-color (en-US)
 :active
 additive-symbols (@counter-style)
 ::after (:after)
-align-content
-align-self
 align-tracks (en-US)
 all
 <an-plus-b>
@@ -265,7 +263,7 @@ H
 frequency#Hz (en-US)
 hanging-punctuation
 :has
-height
+
 height (@viewport) (en-US)
 @historical-forms
 :host()
@@ -685,7 +683,7 @@ W
 :where
 white-space
 widows
-width
+
 width (@viewport) (en-US)
 will-change
 word-break

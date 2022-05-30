@@ -63,6 +63,17 @@
 .z\(uns\) {z-index: unset;}
 .z\(rvt\) {z-index: revert;}
 
+.w\(0\) {width: 0;}
+.w\(a\) {width: auto;}
+.w\(inh\) {width: inherit;}
+.w\(init\) {width: initial;}
+.w\(uns\) {width: unset;}
+.h\(0\) {height: 0;}
+.h\(a\) {height: auto;}
+.h\(inh\) {height: inherit;}
+.h\(init\) {height: initial;}
+.h\(uns\) {height: unset;}
+
 /*-- flexbox --*/
 .fl\(n\) {flex: none;}
 .fl\(a\) {flex: auto;}
@@ -96,9 +107,9 @@
 .fl-dir\(inh\) {flex-direction: inherit;}
 .fl-dir\(init\) {flex-direction: initial;}
 .fl-dir\(uns\) {flex-direction: unset;}
-.fl-wr\(wrap\) {flex-wrap: wrap;}
-.fl-wr\(nowrap\) {flex-wrap: nowrap;}
-.fl-wr\(wrap-rvs\) {flex-wrap: wrap-reverse;}
+.fl-wr\(wr\) {flex-wrap: wrap;}
+.fl-wr\(nowr\) {flex-wrap: nowrap;}
+.fl-wr\(wr-rvs\) {flex-wrap: wrap-reverse;}
 .fl-wr\(inh\) {flex-wrap: inherit;}
 .fl-wr\(init\) {flex-wrap: initial;}
 .fl-wr\(uns\) {flex-wrap: unset;}
@@ -114,6 +125,8 @@
 
 .al-sl\(a\) {align-self: auto;}
 .al-sl\(norm\) {align-self: normal;}
+.al-sl\(st\) {align-self: start;}
+.al-sl\(end\) {align-self: end;}
 .al-sl\(fl-st\) {align-self: flex-start;}
 .al-sl\(fl-end\) {align-self: flex-end;}
 .al-sl\(cn\) {align-self: center;}
@@ -123,7 +136,36 @@
 .al-sl\(init\) {align-self: initial;}
 .al-sl\(uns\) {align-self: unset;}
 
+.al-cont\(norm\) {align-content: normal;}
+.al-cont\(st\) {align-content: start;}
+.al-cont\(end\) {align-content: end;}
+.al-cont\(fl-st\) {align-content: flex-start;}
+.al-cont\(fl-end\) {align-content: flex-end;}
+.al-cont\(cn\) {align-content: center;}
+.al-cont\(bs-ln\) {align-content: baseline;}
+.al-cont\(str\) {align-content: stretch;}
+.al-cont\(sp-bet\) {align-content: space-between;}
+.al-cont\(sp-ar\) {align-content: space-around;}
+.al-cont\(sp-eve\) {align-content: space-evenly;}
+.al-cont\(inh\) {align-content: inherit;}
+.al-cont\(init\) {align-content: initial;}
+.al-cont\(uns\) {align-content: unset;}
 
+.j-cont\(lf\) {justify-content: left;}
+.j-cont\(rg\) {justify-content: right;}
+.j-cont\(st\) {justify-content: start;}
+.j-cont\(end\) {justify-content: end;}
+.j-cont\(fl-st\) {justify-content: flex-start;}
+.j-cont\(fl-end\) {justify-content: flex-end;}
+.j-cont\(cn\) {justify-content: center;}
+.j-cont\(bs-ln\) {justify-content: baseline;}
+.j-cont\(str\) {justify-content: stretch;}
+.j-cont\(sp-bet\) {justify-content: space-between;}
+.j-cont\(sp-ar\) {justify-content: space-around;}
+.j-cont\(sp-eve\) {justify-content: space-evenly;}
+.j-cont\(inh\) {justify-content: inherit;}
+.j-cont\(init\) {justify-content: initial;}
+.j-cont\(uns\) {justify-content: unset;}
 
 
 

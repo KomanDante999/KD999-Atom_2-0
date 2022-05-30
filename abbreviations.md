@@ -1,23 +1,28 @@
-<!-- 
+<!--
 а - auto
 abs - absolute
+ar - around
 bt - bottom
 bs - base
 bas - basis
+bet - between
 c - color
 cn - center
 col - column
 cont - content
 d - display
 dir - direction
+eve - evenly
 fl - flex
 fix - fixed
 grв - grid
 grw - grow
+h - height
 in - inline
 it - item
 inh - inherit
 init - initial
+j - justify
 ln - line
 lf - left
 mx - max
@@ -30,15 +35,18 @@ rel - relative
 rvt - revert
 rvs - reverse
 str - stretch
-sl - self 
+sl - self
 st - start
 stat - static
 sti - sticky
 shr - shrink
+sp - space
 tp - top
 tb - table
 tx - text
 uns - unset
+w - width
+wr - wrap
 z - z-index
 
 -->
