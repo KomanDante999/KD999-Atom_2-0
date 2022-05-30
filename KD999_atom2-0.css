@@ -1,21 +1,3 @@
-/*
-c - color
-d - display
-fl - flex
-tb - table
-rb - ruby
-gr - grid
-cn - center
-tp - top
-rg - right
-bt - bottom
-lf - left
-z - z-index
-n - none
-mx - max
-mn - min
-*/
-
 /*=====  block-model  ====*/
 .d\(n\) {display: none;}
 .d\(inh\) {display: inherit;}
@@ -28,24 +10,24 @@ mn - min
 .d\(flow-root\) {display: flow-root;}
 .d\(tb\) {display: table;}
 .d\(fl\) {display: flex;}
-.d\(gr\) {display: grid;}
+.d\(grd\) {display: grid;}
 .d\(rb\) {display: ruby;}
 .d\(in-block\) {display: inline-block;}
 .d\(in-tb\) {display: inline-table;}
 .d\(in-fl\) {display: inline-flex;}
-.d\(in-gr\) {display: inline-grid;}
+.d\(in-grd\) {display: inline-grid;}
 .d\(list-it\) {display: list-item;}
 .d\(tb-row-group\) {display: table-row-group;}
 .d\(tb-header-group\) {display: table-header-group;}
 .d\(tb-footer-group\) {display: table-footer-group;}
 .d\(tb-row\) {display: table-row;}
 .d\(tb-cell\) {display: table-cell;}
-.d\(tb-column-group\) {display: table-column-group;}
-.d\(tb-column\) {display: table-column;}
+.d\(tb-col-group\) {display: table-column-group;}
+.d\(tb-col\) {display: table-column;}
 .d\(tb-caption\) {display: table-caption;}
-.d\(rb-base\) {display: ruby-base;}
-.d\(rb-text\) {display: ruby-text;}
-.d\(rb-text-container\) {display: ruby-text-container;}
+.d\(rb-bs\) {display: ruby-base;}
+.d\(rb-tx\) {display: ruby-text;}
+.d\(rb-tx-container\) {display: ruby-text-container;}
 
 .pos\(stat\) {position: static;}
 .pos\(rel\) {position: relative;}
@@ -54,48 +36,42 @@ mn - min
 .pos\(sti\) {position: sticky;}
 
 .tp\(0\) {top: 0;}
-.tp\(auto\) {top: auto;}
+.tp\(a\) {top: auto;}
 .tp\(inh\) {top: inherit;}
 .tp\(init\) {top: initial;}
 .tp\(uns\) {top: unset;}
 .rg\(0\) {right: 0;}
-.rg\(auto\) {right: auto;}
+.rg\(a\) {right: auto;}
 .rg\(inh\) {right: inherit;}
 .rg\(init\) {right: initial;}
 .rg\(uns\) {right: unset;}
 .bt\(0\) {bottom: 0;}
-.bt\(auto\) {bottom: auto;}
+.bt\(a\) {bottom: auto;}
 .bt\(inh\) {bottom: inherit;}
 .bt\(init\) {bottom: initial;}
 .bt\(uns\) {bottom: unset;}
 .lf\(0\) {left: 0;}
-.lf\(auto\) {left: auto;}
+.lf\(a\) {left: auto;}
 .lf\(inh\) {left: inherit;}
 .lf\(init\) {left: initial;}
 .lf\(uns\) {left: unset;}
 
 .z\(0\) {z-index: 0;}
-.z\(auto\) {z-index: auto;}
+.z\(a\) {z-index: auto;}
 .z\(inh\) {z-index: inherit;}
 .z\(init\) {z-index: initial;}
 .z\(uns\) {z-index: unset;}
-.z\(rev\) {z-index: revert;}
-.z\(0\) {z-index: 0;}
-.z\(auto\) {z-index: auto;}
-.z\(inh\) {z-index: inherit;}
-.z\(init\) {z-index: initial;}
-.z\(uns\) {z-index: unset;}
-.z\(rev\) {z-index: revert;}
+.z\(rvt\) {z-index: revert;}
 
-/*flexbox*/
+/*-- flexbox --*/
 .fl\(n\) {flex: none;}
-.fl\(auto\) {flex: auto;}
+.fl\(a\) {flex: auto;}
 .fl\(inh\) {flex: inherit;}
 .fl\(init\) {flex: initial;}
 .fl\(uns\) {flex: unset;}
 
 .fl-bas\(0\) {flex-basis: 0;}
-.fl-bas\(auto\) {flex-basis: auto;}
+.fl-bas\(a\) {flex-basis: auto;}
 .fl-bas\(inh\) {flex-basis: inherit;}
 .fl-bas\(init\) {flex-basis: initial;}
 .fl-bas\(uns\) {flex-basis: unset;}
@@ -104,8 +80,48 @@ mn - min
 .fl-bas\(mx-cont\) {flex-basis: max-content;}
 .fl-bas\(mn-cont\) {flex-basis: min-content;}
 .fl-bas\(fit-cont\) {flex-basis: fit-content;}
+.fl-shr\(0\) {flex-shrink: 0;}
+.fl-shr\(inh\) {flex-shrink: inherit;}
+.fl-shr\(init\) {flex-shrink: initial;}
+.fl-shr\(uns\) {flex-shrink: unset;}
+.fl-grw\(0\) {flex-grow: 0;}
+.fl-grw\(inh\) {flex-grow: inherit;}
+.fl-grw\(init\) {flex-grow: initial;}
+.fl-grw\(uns\) {flex-grow: unset;}
 
+.fl-dir\(row\) {flex-direction: row;}
+.fl-dir\(row-rvs\) {flex-direction: row-reverse;}
+.fl-dir\(col\) {flex-direction: column;}
+.fl-dir\(col-rvs\) {flex-direction: column-reverse;}
+.fl-dir\(inh\) {flex-direction: inherit;}
+.fl-dir\(init\) {flex-direction: initial;}
+.fl-dir\(uns\) {flex-direction: unset;}
+.fl-wr\(wrap\) {flex-wrap: wrap;}
+.fl-wr\(nowrap\) {flex-wrap: nowrap;}
+.fl-wr\(wrap-rvs\) {flex-wrap: wrap-reverse;}
+.fl-wr\(inh\) {flex-wrap: inherit;}
+.fl-wr\(init\) {flex-wrap: initial;}
+.fl-wr\(uns\) {flex-wrap: unset;}
 
+.al-it\(fl-st\) {align-items: flex-start;}
+.al-it\(fl-end\) {align-items: flex-end;}
+.al-it\(cn\) {align-items: center;}
+.al-it\(bs-ln\) {align-items: baseline;}
+.al-it\(str\) {align-items: stretch;}
+.al-it\(inh\) {align-items: inherit;}
+.al-it\(init\) {align-items: initial;}
+.al-it\(uns\) {align-items: unset;}
+
+.al-sl\(a\) {align-self: auto;}
+.al-sl\(norm\) {align-self: normal;}
+.al-sl\(fl-st\) {align-self: flex-start;}
+.al-sl\(fl-end\) {align-self: flex-end;}
+.al-sl\(cn\) {align-self: center;}
+.al-sl\(bs-ln\) {align-self: baseline;}
+.al-sl\(str\) {align-self: stretch;}
+.al-sl\(inh\) {align-self: inherit;}
+.al-sl\(init\) {align-self: initial;}
+.al-sl\(uns\) {align-self: unset;}
 
 
 

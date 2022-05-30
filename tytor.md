@@ -5,7 +5,6 @@ accent-color (en-US)
 additive-symbols (@counter-style)
 ::after (:after)
 align-content
-align-items
 align-self
 align-tracks (en-US)
 all
@@ -200,15 +199,7 @@ filter
 ::first-line (:first-line)
 :first-of-type
 fit-content() (en-US)
-<flex>
-flex
-flex-basis
-flex-direction
-flex-flow
-flex-grow
-flex-shrink
-flex-wrap
-flex_value#fr
+
 float
 :focus
 :focus-visible

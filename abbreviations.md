@@ -1,0 +1,44 @@
+<!-- 
+а - auto
+abs - absolute
+bt - bottom
+bs - base
+bas - basis
+c - color
+cn - center
+col - column
+cont - content
+d - display
+dir - direction
+fl - flex
+fix - fixed
+grв - grid
+grw - grow
+in - inline
+it - item
+inh - inherit
+init - initial
+ln - line
+lf - left
+mx - max
+mn - min
+n - none
+norm - normal
+rb - ruby
+rg - right
+rel - relative
+rvt - revert
+rvs - reverse
+str - stretch
+sl - self 
+st - start
+stat - static
+sti - sticky
+shr - shrink
+tp - top
+tb - table
+tx - text
+uns - unset
+z - z-index
+
+-->
