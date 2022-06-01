@@ -310,7 +310,7 @@ isolation
 length#ic
 length#in
 J
-justify-content
+
 justify-items
 justify-self (en-US)
 justify-tracks (en-US)
@@ -384,9 +384,9 @@ max-height
 max-height (@viewport) (en-US)
 max-inline-size (en-US)
 max-lines
-max-width
-max-width (@viewport) (en-US)
-max-zoom (@viewport) (en-US)
+
+
+<!-- max-zoom (@viewport) (en-US) -->
 @media
 min() (en-US)
 min-block-size (en-US)

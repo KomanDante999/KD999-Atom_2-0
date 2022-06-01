@@ -76,6 +76,17 @@
 .h\(init\) {height: initial;}
 .h\(uns\) {height: unset;}
 
+.mx-w\(0\) {max-width: 0;}
+.mx-w\(100\%\) {max-width: 100%;}
+.mx-w\(100\%\) {max-width: 100%;}
+.mx-w\(100\%\) {max-width: 100%;}
+.mx-w\(100\%\) {max-width: 100%;}
+.mx-w\(a\) {max-width: auto;}
+.mx-w\(inh\) {max-width: inherit;}
+.mx-w\(init\) {max-width: initial;}
+.mx-w\(uns\) {max-width: unset;}
+
+
 /*-- flexbox --*/
 .fl\(n\) {flex: none;}
 .fl\(a\) {flex: auto;}
