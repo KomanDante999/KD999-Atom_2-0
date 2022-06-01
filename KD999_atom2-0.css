@@ -64,6 +64,7 @@
 .z\(rvt\) {z-index: revert;}
 
 .w\(0\) {width: 0;}
+.w\(100\%\) {width: 100%;}
 .w\(a\) {width: auto;}
 .w\(inh\) {width: inherit;}
 .w\(init\) {width: initial;}
