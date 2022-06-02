@@ -76,12 +76,11 @@
 .h\(init\) {height: initial;}
 .h\(uns\) {height: unset;}
 
-.mx-w\(0\) {max-width: 0;}
-.mx-w\(100\%\) {max-width: 100%;}
-.mx-w\(100\%\) {max-width: 100%;}
-.mx-w\(100\%\) {max-width: 100%;}
-.mx-w\(100\%\) {max-width: 100%;}
-.mx-w\(a\) {max-width: auto;}
+.mx-w\(n\) {max-width: none;}
+.mx-w\(mx-cont\) {max-width: max-content;}
+.mx-w\(mn-cont\) {max-width: min-content;}
+.mx-w\(fit-cont\) {max-width: fit-content;}
+.mx-w\(fill-cont\) {max-width: fill-available;}
 .mx-w\(inh\) {max-width: inherit;}
 .mx-w\(init\) {max-width: initial;}
 .mx-w\(uns\) {max-width: unset;}
