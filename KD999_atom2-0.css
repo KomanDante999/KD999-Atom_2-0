@@ -75,6 +75,7 @@
 .h\(inh\) {height: inherit;}
 .h\(init\) {height: initial;}
 .h\(uns\) {height: unset;}
+
 .mx-w\(n\) {max-width: none;}
 .mx-w\(mx-cont\) {max-width: max-content;}
 .mx-w\(mn-cont\) {max-width: min-content;}
