@@ -393,9 +393,7 @@ min-block-size (en-US)
 min-height
 min-height (@viewport) (en-US)
 min-inline-size (en-US)
-min-width
-min-width (@viewport) (en-US)
-min-zoom (@viewport) (en-US)
+
 minmax()
 mix-blend-mode
 time#ms

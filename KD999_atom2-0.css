@@ -85,6 +85,14 @@
 .mx-w\(init\) {max-width: initial;}
 .mx-w\(uns\) {max-width: unset;}
 
+.mn-w\(a\) {min-width: auto;}
+.mn-w\(mx-cont\) {min-width: min-content;}
+.mn-w\(mn-cont\) {min-width: min-content;}
+.mn-w\(fit-cont\) {min-width: fit-content;}
+.mn-w\(fill-cont\) {min-width: fill-available;}
+.mn-w\(inh\) {min-width: inherit;}
+.mn-w\(init\) {min-width: initial;}
+.mn-w\(uns\) {min-width: unset;}
 
 /*-- flexbox --*/
 .fl\(n\) {flex: none;}
