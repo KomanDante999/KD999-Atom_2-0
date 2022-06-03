@@ -94,6 +94,25 @@
 .mn-w\(init\) {min-width: initial;}
 .mn-w\(uns\) {min-width: unset;}
 
+/*height*/
+.mx-h\(n\) {max-height: none;}
+.mx-h\(mx-cont\) {max-height: max-content;}
+.mx-h\(mn-cont\) {max-height: min-content;}
+.mx-h\(fit-cont\) {max-height: fit-content;}
+.mx-h\(fill-cont\) {max-height: fill-available;}
+.mx-h\(inh\) {max-height: inherit;}
+.mx-h\(init\) {max-height: initial;}
+.mx-h\(uns\) {max-height: unset;}
+
+.mn-h\(a\) {min-height: auto;}
+.mn-h\(mx-cont\) {min-height: min-content;}
+.mn-h\(mn-cont\) {min-height: min-content;}
+.mn-h\(fit-cont\) {min-height: fit-content;}
+.mn-h\(fill-cont\) {min-height: fill-available;}
+.mn-h\(inh\) {min-height: inherit;}
+.mn-h\(init\) {min-height: initial;}
+.mn-h\(uns\) {min-height: unset;}
+
 /*-- flexbox --*/
 .fl\(n\) {flex: none;}
 .fl\(a\) {flex: auto;}
