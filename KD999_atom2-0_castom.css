@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/* border */
+.brd\(1\) {border: 1px solid transparent;}
+.brd\(2\) {border: 2px solid transparent;}
+.brd\(3\) {border: 3px solid transparent;}
+.brd\(4\) {border: 4px solid transparent;}
+
+.brd-tp\(1\) {border-top: 1px solid transparent;}
+.brd-tp\(2\) {border-top: 2px solid transparent;}
+.brd-tp\(3\) {border-top: 3px solid transparent;}
+.brd-tp\(4\) {border-top: 4px solid transparent;}
+
+.brd-rg\(1\) {border-right: 1px solid transparent;}
+.brd-rg\(2\) {border-right: 2px solid transparent;}
+.brd-rg\(3\) {border-right: 3px solid transparent;}
+.brd-rg\(4\) {border-right: 4px solid transparent;}
+
+.brd-bt\(1\) {border-bottom: 1px solid transparent;}
+.brd-bt\(2\) {border-bottom: 2px solid transparent;}
+.brd-bt\(3\) {border-bottom: 3px solid transparent;}
+.brd-bt\(4\) {border-bottom: 4px solid transparent;}
+
+.brd-lf\(1\) {border-left: 1px solid transparent;}
+.brd-lf\(2\) {border-left: 2px solid transparent;}
+.brd-lf\(3\) {border-left: 3px solid transparent;}
+.brd-lf\(4\) {border-left: 4px solid transparent;}
+
+

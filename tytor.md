@@ -113,7 +113,7 @@ border-top-width (en-US)
 border-width
 bc cxbox-decoration-break (en-US)
 box-shadow
-box-sizing
+<!-- box-sizing -->
 break-after (en-US)
 break-before (en-US)
 break-inside (en-US)
@@ -343,17 +343,17 @@ local() (en-US)
 :local-link (en-US)
 M
 length#mm
-margin
+<!-- margin -->
 margin-block (en-US)
 margin-block-end (en-US)
 margin-block-start (en-US)
-margin-bottom
+<!-- margin-bottom -->
 margin-inline (en-US)
 margin-inline-end
 margin-inline-start
-margin-left
+<!-- margin-left
 margin-right
-margin-top
+margin-top -->
 margin-trim (en-US)
 ::marker
 marks (@page)
@@ -380,20 +380,11 @@ matrix() (en-US)
 matrix3d() (en-US)
 max() (en-US)
 max-block-size
-max-height
-max-height (@viewport) (en-US)
 max-inline-size (en-US)
 max-lines
-
-
-<!-- max-zoom (@viewport) (en-US) -->
-@media
 min() (en-US)
 min-block-size (en-US)
-min-height
-min-height (@viewport) (en-US)
 min-inline-size (en-US)
-
 minmax()
 mix-blend-mode
 time#ms
@@ -422,7 +413,6 @@ offset-rotate (en-US)
 opacity
 opacity() (en-US)
 :optional
-order
 orientation (@viewport) (en-US)
 @ornaments
 ornaments() (en-US)

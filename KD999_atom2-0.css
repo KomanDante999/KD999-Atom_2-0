@@ -1,4 +1,11 @@
-/*=====  block-model  ====*/
+/*==========  block-model  ==========*/
+
+.box-szg\(brd-box\) {box-sizing: border-box;}
+.box-szg\(cont-box\) {box-sizing: content-box;}
+.box-szg\(inh\) {box-sizing: inherit;}
+.box-szg\(init\) {box-sizing: initial;}
+.box-szg\(uns\) {box-sizing: unset;}
+
 .d\(n\) {display: none;}
 .d\(inh\) {display: inherit;}
 .d\(init\) {display: initial;}
@@ -63,18 +70,13 @@
 .z\(uns\) {z-index: unset;}
 .z\(rvt\) {z-index: revert;}
 
+/* width */
 .w\(0\) {width: 0;}
 .w\(100\%\) {width: 100%;}
 .w\(a\) {width: auto;}
 .w\(inh\) {width: inherit;}
 .w\(init\) {width: initial;}
 .w\(uns\) {width: unset;}
-.h\(0\) {height: 0;}
-.h\(100\%\) {height: 100%;}
-.h\(a\) {height: auto;}
-.h\(inh\) {height: inherit;}
-.h\(init\) {height: initial;}
-.h\(uns\) {height: unset;}
 
 .mx-w\(n\) {max-width: none;}
 .mx-w\(mx-cont\) {max-width: max-content;}
@@ -86,7 +88,7 @@
 .mx-w\(uns\) {max-width: unset;}
 
 .mn-w\(a\) {min-width: auto;}
-.mn-w\(mx-cont\) {min-width: min-content;}
+.mn-w\(mx-cont\) {min-width: max-content;}
 .mn-w\(mn-cont\) {min-width: min-content;}
 .mn-w\(fit-cont\) {min-width: fit-content;}
 .mn-w\(fill-cont\) {min-width: fill-available;}
@@ -94,7 +96,14 @@
 .mn-w\(init\) {min-width: initial;}
 .mn-w\(uns\) {min-width: unset;}
 
-/*height*/
+/* height */
+.h\(0\) {height: 0;}
+.h\(100\%\) {height: 100%;}
+.h\(a\) {height: auto;}
+.h\(inh\) {height: inherit;}
+.h\(init\) {height: initial;}
+.h\(uns\) {height: unset;}
+
 .mx-h\(n\) {max-height: none;}
 .mx-h\(mx-cont\) {max-height: max-content;}
 .mx-h\(mn-cont\) {max-height: min-content;}
@@ -105,7 +114,7 @@
 .mx-h\(uns\) {max-height: unset;}
 
 .mn-h\(a\) {min-height: auto;}
-.mn-h\(mx-cont\) {min-height: min-content;}
+.mn-h\(mx-cont\) {min-height: max-content;}
 .mn-h\(mn-cont\) {min-height: min-content;}
 .mn-h\(fit-cont\) {min-height: fit-content;}
 .mn-h\(fill-cont\) {min-height: fill-available;}
@@ -130,6 +139,7 @@
 .fl-bas\(mx-cont\) {flex-basis: max-content;}
 .fl-bas\(mn-cont\) {flex-basis: min-content;}
 .fl-bas\(fit-cont\) {flex-basis: fit-content;}
+
 .fl-shr\(0\) {flex-shrink: 0;}
 .fl-shr\(inh\) {flex-shrink: inherit;}
 .fl-shr\(init\) {flex-shrink: initial;}
@@ -146,6 +156,7 @@
 .fl-dir\(inh\) {flex-direction: inherit;}
 .fl-dir\(init\) {flex-direction: initial;}
 .fl-dir\(uns\) {flex-direction: unset;}
+
 .fl-wr\(wr\) {flex-wrap: wrap;}
 .fl-wr\(nowr\) {flex-wrap: nowrap;}
 .fl-wr\(wr-rvs\) {flex-wrap: wrap-reverse;}
@@ -206,6 +217,231 @@
 .j-cont\(init\) {justify-content: initial;}
 .j-cont\(uns\) {justify-content: unset;}
 
+.j-sl\(a\) {justify-self: auto;}
+.j-sl\(norm\) {justify-self: normal;}
+.j-sl\(str\) {justify-self: stretch;}
+.j-sl\(cn\) {justify-self: center;}
+.j-sl\(st\) {justify-self: start;}
+.j-sl\(end\) {justify-self: end;}
+.j-sl\(fl-st\) {justify-self: flex-start;}
+.j-sl\(fl-end\) {justify-self: flex-end;}
+.j-sl\(lf\) {justify-self: left;}
+.j-sl\(rg\) {justify-self: right;}
+.j-sl\(bs-ln\) {justify-self: baseline;}
+.j-sl\(inh\) {justify-self: inherit;}
+.j-sl\(init\) {justify-self: initial;}
+.j-sl\(uns\) {justify-self: unset;}
+.j-sl\(rvt\) {justify-self: revert;}
+
+.j-it\(a\) {justify-items: auto;}
+.j-it\(norm\) {justify-items: normal;}
+.j-it\(str\) {justify-items: stretch;}
+.j-it\(cn\) {justify-items: center;}
+.j-it\(st\) {justify-items: start;}
+.j-it\(end\) {justify-items: end;}
+.j-it\(fl-st\) {justify-items: flex-start;}
+.j-it\(fl-end\) {justify-items: flex-end;}
+.j-it\(lf\) {justify-items: left;}
+.j-it\(rg\) {justify-items: right;}
+.j-it\(bs-ln\) {justify-items: baseline;}
+.j-it\(inh\) {justify-items: inherit;}
+.j-it\(init\) {justify-items: initial;}
+.j-it\(uns\) {justify-items: unset;}
+
+.ord\(inh\) {order: inherit;}
+.ord\(init\) {order: initial;}
+.ord\(uns\) {order: unset;}
+.ord\(inh\) {order: inherit;}
+.ord\(init\) {order: initial;}
+.ord\(uns\) {order: unset;}
+
+/* grid */
+
+/* padding */
+.pd\(0\) {padding: 0;}
+.pd\(inh\) {padding: inherit;}
+.pd\(init\) {padding: initial;}
+.pd\(uns\) {padding: unset;}
+
+.pd-tp\(0\) {padding-top: 0;}
+.pd-tp\(inh\) {padding-top: inherit;}
+.pd-tp\(init\) {padding-top: initial;}
+.pd-tp\(uns\) {padding-top: unset;}
+
+.pd-rg\(0\) {padding-right: 0;}
+.pd-rg\(inh\) {padding-right: inherit;}
+.pd-rg\(init\) {padding-right: initial;}
+.pd-rg\(uns\) {padding-right: unset;}
+
+.pd-bt\(0\) {padding-bottom: 0;}
+.pd-bt\(inh\) {padding-bottom: inherit;}
+.pd-bt\(init\) {padding-bottom: initial;}
+.pd-bt\(uns\) {padding-bottom: unset;}
+
+.pd-lf\(0\) {padding-left: 0;}
+.pd-lf\(inh\) {padding-left: inherit;}
+.pd-lf\(init\) {padding-left: initial;}
+.pd-lf\(uns\) {padding-left: unset;}
+
+/* margin */
+.mr\(a\) {margin: auto;}
+.mr\(0\) {margin: 0;}
+.mr\(inh\) {margin: inherit;}
+.mr\(init\) {margin: initial;}
+.mr\(uns\) {margin: unset;}
+
+.mr-tp\(a\) {margin-top: auto;}
+.mr-tp\(0\) {margin-top: 0;}
+.mr-tp\(inh\) {margin-top: inherit;}
+.mr-tp\(init\) {margin-top: initial;}
+.mr-tp\(uns\) {margin-top: unset;}
+
+.mr-rg\(a\) {margin-right: auto;}
+.mr-rg\(0\) {margin-right: 0;}
+.mr-rg\(inh\) {margin-right: inherit;}
+.mr-rg\(init\) {margin-right: initial;}
+.mr-rg\(uns\) {margin-right: unset;}
+
+.mr-bt\(a\) {margin-bottom: auto;}
+.mr-bt\(0\) {margin-bottom: 0;}
+.mr-bt\(inh\) {margin-bottom: inherit;}
+.mr-bt\(init\) {margin-bottom: initial;}
+.mr-bt\(uns\) {margin-bottom: unset;}
+
+.mr-lf\(a\) {margin-left: auto;}
+.mr-lf\(0\) {margin-left: 0;}
+.mr-lf\(inh\) {margin-left: inherit;}
+.mr-lf\(init\) {margin-left: initial;}
+.mr-lf\(uns\) {margin-left: unset;}
+
+/* border */
+
+.brd-w\(0\) {border-width: 0;}
+.brd-w\(thin\) {border-width: thin;}
+.brd-w\(medium\) {border-width: medium;}
+.brd-w\(thick\) {border-width: thick;}
+.brd-w\(inh\) {border-width: inherit;}
+.brd-w\(init\) {border-width: initial;}
+.brd-w\(uns\) {border-width: unset;}
+.brd-w\(rvt\) {border-width: revert;}
+
+.brd-tp-w\(0\) {border-top-width: 0;}
+.brd-tp-w\(thin\) {border-top-width: thin;}
+.brd-tp-w\(medium\) {border-top-width: medium;}
+.brd-tp-w\(thick\) {border-top-width: thick;}
+.brd-tp-w\(inh\) {border-top-width: inherit;}
+.brd-tp-w\(init\) {border-top-width: initial;}
+.brd-tp-w\(uns\) {border-top-width: unset;}
+.brd-tp-w\(rvt\) {border-top-width: revert;}
+
+.brd-rg-w\(0\) {border-right-width: 0;}
+.brd-rg-w\(thin\) {border-right-width: thin;}
+.brd-rg-w\(medium\) {border-right-width: medium;}
+.brd-rg-w\(thick\) {border-right-width: thick;}
+.brd-rg-w\(inh\) {border-right-width: inherit;}
+.brd-rg-w\(init\) {border-right-width: initial;}
+.brd-rg-w\(uns\) {border-right-width: unset;}
+.brd-rg-w\(rvt\) {border-right-width: revert;}
+
+.brd-bt-w\(0\) {border-bottom-width: 0;}
+.brd-bt-w\(thin\) {border-bottom-width: thin;}
+.brd-bt-w\(medium\) {border-bottom-width: medium;}
+.brd-bt-w\(thick\) {border-bottom-width: thick;}
+.brd-bt-w\(inh\) {border-bottom-width: inherit;}
+.brd-bt-w\(init\) {border-bottom-width: initial;}
+.brd-bt-w\(uns\) {border-bottom-width: unset;}
+.brd-bt-w\(rvt\) {border-bottom-width: revert;}
+
+.brd-lf-w\(0\) {border-left-width: 0;}
+.brd-lf-w\(thin\) {border-left-width: thin;}
+.brd-lf-w\(medium\) {border-left-width: medium;}
+.brd-lf-w\(thick\) {border-left-width: thick;}
+.brd-lf-w\(inh\) {border-left-width: inherit;}
+.brd-lf-w\(init\) {border-left-width: initial;}
+.brd-lf-w\(uns\) {border-left-width: unset;}
+.brd-lf-w\(rvt\) {border-left-width: revert;}
+
+.brd-sty\(n\) {border-style: none;}
+.brd-sty\(hid\) {border-style: hidden;}
+.brd-sty\(dot\) {border-style: dotted;}
+.brd-sty\(das\) {border-style: dashed;}
+.brd-sty\(sol\) {border-style: solid;}
+.brd-sty\(dou\) {border-style: double;}
+.brd-sty\(gro\) {border-style: groove;}
+.brd-sty\(rid\) {border-style: ridge;}
+.brd-sty\(ins\) {border-style: inset;}
+.brd-sty\(o-set\) {border-style: outset;}
+.brd-sty\(inh\) {border-style: inherit;}
+.brd-sty\(init\) {border-style: initial;}
+.brd-sty\(uns\) {border-style: unset;}
+.brd-sty\(rvt\) {border-style: revert;}
+
+.brd-tp-sty\(n\) {border-top-style: none;}
+.brd-tp-sty\(hid\) {border-top-style: hidden;}
+.brd-tp-sty\(dot\) {border-top-style: dotted;}
+.brd-tp-sty\(das\) {border-top-style: dashed;}
+.brd-tp-sty\(sol\) {border-top-style: solid;}
+.brd-tp-sty\(dou\) {border-top-style: double;}
+.brd-tp-sty\(gro\) {border-top-style: groove;}
+.brd-tp-sty\(rid\) {border-top-style: ridge;}
+.brd-tp-sty\(ins\) {border-top-style: inset;}
+.brd-tp-sty\(o-set\) {border-top-style: outset;}
+.brd-tp-sty\(inh\) {border-top-style: inherit;}
+.brd-tp-sty\(init\) {border-top-style: initial;}
+.brd-tp-sty\(uns\) {border-top-style: unset;}
+.brd-tp-sty\(rvt\) {border-top-style: revert;}
+
+.brd-rg-sty\(n\) {border-right-style: none;}
+.brd-rg-sty\(hid\) {border-right-style: hidden;}
+.brd-rg-sty\(dot\) {border-right-style: dotted;}
+.brd-rg-sty\(das\) {border-right-style: dashed;}
+.brd-rg-sty\(sol\) {border-right-style: solid;}
+.brd-rg-sty\(dou\) {border-right-style: double;}
+.brd-rg-sty\(gro\) {border-right-style: groove;}
+.brd-rg-sty\(rid\) {border-right-style: ridge;}
+.brd-rg-sty\(ins\) {border-right-style: inset;}
+.brd-rg-sty\(o-set\) {border-right-style: outset;}
+.brd-rg-sty\(inh\) {border-right-style: inherit;}
+.brd-rg-sty\(init\) {border-right-style: initial;}
+.brd-rg-sty\(uns\) {border-right-style: unset;}
+.brd-rg-sty\(rvt\) {border-right-style: revert;}
+
+.brd-bt-sty\(n\) {border-bottom-style: none;}
+.brd-bt-sty\(hid\) {border-bottom-style: hidden;}
+.brd-bt-sty\(dot\) {border-bottom-style: dotted;}
+.brd-bt-sty\(das\) {border-bottom-style: dashed;}
+.brd-bt-sty\(sol\) {border-bottom-style: solid;}
+.brd-bt-sty\(dou\) {border-bottom-style: double;}
+.brd-bt-sty\(gro\) {border-bottom-style: groove;}
+.brd-bt-sty\(rid\) {border-bottom-style: ridge;}
+.brd-bt-sty\(ins\) {border-bottom-style: inset;}
+.brd-bt-sty\(o-set\) {border-bottom-style: outset;}
+.brd-bt-sty\(inh\) {border-bottom-style: inherit;}
+.brd-bt-sty\(init\) {border-bottom-style: initial;}
+.brd-bt-sty\(uns\) {border-bottom-style: unset;}
+.brd-bt-sty\(rvt\) {border-bottom-style: revert;}
+
+.brd-lf-sty\(n\) {border-left-style: none;}
+.brd-lf-sty\(hid\) {border-left-style: hidden;}
+.brd-lf-sty\(dot\) {border-left-style: dotted;}
+.brd-lf-sty\(das\) {border-left-style: dashed;}
+.brd-lf-sty\(sol\) {border-left-style: solid;}
+.brd-lf-sty\(dou\) {border-left-style: double;}
+.brd-lf-sty\(gro\) {border-left-style: groove;}
+.brd-lf-sty\(rid\) {border-left-style: ridge;}
+.brd-lf-sty\(ins\) {border-left-style: inset;}
+.brd-lf-sty\(o-set\) {border-left-style: outset;}
+.brd-lf-sty\(inh\) {border-left-style: inherit;}
+.brd-lf-sty\(init\) {border-left-style: initial;}
+.brd-lf-sty\(uns\) {border-left-style: unset;}
+.brd-lf-sty\(rvt\) {border-left-style: revert;}
+
+.brd-c\(inh\) {border-color: transparent;}
+.brd-c\(inh\) {border-color: currentColor;}
+.brd-c\(inh\) {border-color: inherit;}
+.brd-c\(init\) {border-color: initial;}
+.brd-c\(uns\) {border-color: unset;}
+.brd-c\(rvt\) {border-color: revert;}
 
 
 
@@ -216,7 +452,4 @@
 
 
 
-
-
-
-.acc-c {accent-color: inherit;}
+/*==========  block-model  ==========*/
