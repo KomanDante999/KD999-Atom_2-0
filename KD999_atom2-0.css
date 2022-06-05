@@ -174,7 +174,7 @@
 .al-it\(uns\) {align-items: unset;}
 
 .al-sl\(a\) {align-self: auto;}
-.al-sl\(norm\) {align-self: normal;}
+.al-sl\(nor\) {align-self: normal;}
 .al-sl\(st\) {align-self: start;}
 .al-sl\(end\) {align-self: end;}
 .al-sl\(fl-st\) {align-self: flex-start;}
@@ -186,7 +186,7 @@
 .al-sl\(init\) {align-self: initial;}
 .al-sl\(uns\) {align-self: unset;}
 
-.al-cont\(norm\) {align-content: normal;}
+.al-cont\(nor\) {align-content: normal;}
 .al-cont\(st\) {align-content: start;}
 .al-cont\(end\) {align-content: end;}
 .al-cont\(fl-st\) {align-content: flex-start;}
@@ -218,7 +218,7 @@
 .j-cont\(uns\) {justify-content: unset;}
 
 .j-sl\(a\) {justify-self: auto;}
-.j-sl\(norm\) {justify-self: normal;}
+.j-sl\(nor\) {justify-self: normal;}
 .j-sl\(str\) {justify-self: stretch;}
 .j-sl\(cn\) {justify-self: center;}
 .j-sl\(st\) {justify-self: start;}
@@ -234,7 +234,7 @@
 .j-sl\(rvt\) {justify-self: revert;}
 
 .j-it\(a\) {justify-items: auto;}
-.j-it\(norm\) {justify-items: normal;}
+.j-it\(nor\) {justify-items: normal;}
 .j-it\(str\) {justify-items: stretch;}
 .j-it\(cn\) {justify-items: center;}
 .j-it\(st\) {justify-items: start;}
@@ -315,7 +315,6 @@
 .mr-lf\(uns\) {margin-left: unset;}
 
 /* border */
-
 .brd-w\(0\) {border-width: 0;}
 .brd-w\(thin\) {border-width: thin;}
 .brd-w\(medium\) {border-width: medium;}
@@ -436,44 +435,229 @@
 .brd-lf-sty\(uns\) {border-left-style: unset;}
 .brd-lf-sty\(rvt\) {border-left-style: revert;}
 
-.brd-c\(t-p\) {border-color: transparent;}
+.brd-c\(trp\) {border-color: transparent;}
 .brd-c\(cur\) {border-color: currentColor;}
 .brd-c\(inh\) {border-color: inherit;}
 .brd-c\(init\) {border-color: initial;}
 .brd-c\(uns\) {border-color: unset;}
 .brd-c\(rvt\) {border-color: revert;}
 
-.brd-tp-c\(t-p\) {border-top-color: transparent;}
+.brd-tp-c\(trp\) {border-top-color: transparent;}
 .brd-tp-c\(cur\) {border-top-color: currentColor;}
 .brd-tp-c\(inh\) {border-top-color: inherit;}
 .brd-tp-c\(init\) {border-top-color: initial;}
 .brd-tp-c\(uns\) {border-top-color: unset;}
 .brd-tp-c\(rvt\) {border-top-color: revert;}
 
-.brd-rg-c\(t-p\) {border-right-color: transparent;}
+.brd-rg-c\(trp\) {border-right-color: transparent;}
 .brd-rg-c\(cur\) {border-right-color: currentColor;}
 .brd-rg-c\(inh\) {border-right-color: inherit;}
 .brd-rg-c\(init\) {border-right-color: initial;}
 .brd-rg-c\(uns\) {border-right-color: unset;}
 .brd-rg-c\(rvt\) {border-right-color: revert;}
 
-.brd-bt-tp-c\(t-p\) {border-bottom-color: transparent;}
+.brd-bt-tp-c\(trp\) {border-bottom-color: transparent;}
 .brd-bt-tp-c\(cur\) {border-bottom-color: currentColor;}
 .brd-bt-tp-c\(inh\) {border-bottom-color: inherit;}
 .brd-bt-tp-c\(init\) {border-bottom-color: initial;}
 .brd-bt-tp-c\(uns\) {border-bottom-color: unset;}
 .brd-bt-tp-c\(rvt\) {border-bottom-color: revert;}
 
-.brd-lf-c\(t-p\) {border-left-color: transparent;}
+.brd-lf-c\(trp\) {border-left-color: transparent;}
 .brd-lf-c\(cur\) {border-left-color: currentColor;}
 .brd-lf-c\(inh\) {border-left-color: inherit;}
 .brd-lf-c\(init\) {border-left-color: initial;}
 .brd-lf-c\(uns\) {border-left-color: unset;}
 .brd-lf-c\(rvt\) {border-left-color: revert;}
 
+.brd-r\(0\) {border-radius: 0;}
+.brd-r\(inh\) {border-radius: inherit;}
+.brd-r\(init\) {border-radius: initial;}
+.brd-r\(uns\) {border-radius: unset;}
+
+.brd-tp-lf-r\(0\) {border-top-left-radius: 0;}
+.brd-tp-lf-r\(inh\) {border-top-left-radius: inherit;}
+.brd-tp-lf-r\(init\) {border-top-left-radius: initial;}
+.brd-tp-lf-r\(uns\) {border-top-left-radius: unset;}
+.brd-tp-lf-r\(rvt\) {border-top-left-radius: revert;}
+
+.brd-tp-rg-r\(0\) {border-top-right-radius: 0;}
+.brd-tp-rg-r\(inh\) {border-top-right-radius: inherit;}
+.brd-tp-rg-r\(init\) {border-top-right-radius: initial;}
+.brd-tp-rg-r\(uns\) {border-top-right-radius: unset;}
+.brd-tp-rg-r\(rvt\) {border-top-right-radius: revert;}
+
+.brd-bt-rg-r\(0\) {border-bottom-right-radius: 0;}
+.brd-bt-rg-r\(inh\) {border-bottom-right-radius: inherit;}
+.brd-bt-rg-r\(init\) {border-bottom-right-radius: initial;}
+.brd-bt-rg-r\(uns\) {border-bottom-right-radius: unset;}
+.brd-bt-rg-r\(rvt\) {border-bottom-right-radius: revert;}
+
+.brd-bt-lf-r\(0\) {border-bottom-left-radius: 0;}
+.brd-bt-lf-r\(inh\) {border-bottom-left-radius: inherit;}
+.brd-bt-lf-r\(init\) {border-bottom-left-radius: initial;}
+.brd-bt-lf-r\(uns\) {border-bottom-left-radius: unset;}
+.brd-bt-lf-r\(rvt\) {border-bottom-left-radius: revert;}
+
+/*========== typography  ==========*/
+
+.f\(cap\) {font: caption;}
+.f\(ic\) {font: icon;}
+.f\(men\) {font: menu;}
+.f\(mes-bx\) {font: message-box;}
+.f\(sm-cap\) {font: small-caption;}
+.f\(stat-bar\) {font: status-bar;}
+
+.f-fam\(serif\) {font-family: serif;}
+.f-fam\(sans-serif\) {font-family: sans-serif;}
+.f-fam\(monospace\) {font-family: monospace;}
+.f-fam\(cursive\) {font-family: cursive;}
+.f-fam\(fantasy\) {font-family: fantasy;}
+.f-fam\(system-ui\) {font-family: system-ui;}
+.f-fam\(emoji\) {font-family: emoji;}
+.f-fam\(math\) {font-family: math;}
+.f-fam\(fangsong\) {font-family: fangsong;}
+.f-fam\(inh\) {font-family: inherit;}
+.f-fam\(init\) {font-family: initial;}
+.f-fam\(uns\) {font-family: unset;}
+
+.f-sty\(nor\) {font-style: normal;}
+.f-sty\(itl\) {font-style: italic;}
+.f-sty\(ob\) {font-style: oblique;}
+.f-sty\(inh\) {font-style: inherit;}
+.f-sty\(init\) {font-style: initial;}
+.f-sty\(uns\) {font-style: unset;}
+
+.f-w\(nor\) {font-weight: normal;}
+.f-w\(bld\) {font-weight: bold;}
+.f-w\(lgr\) {font-weight: lighter;}
+.f-w\(bldr\) {font-weight: bolder;}
+.f-w\(inh\) {font-weight: inherit;}
+.f-w\(init\) {font-weight: initial;}
+.f-w\(uns\) {font-weight: unset;}
+
+.f-str\(ul-cond\) {font-stretch: ultra-condensed;}
+.f-str\(ex-cond\) {font-stretch: extra-condensed;}
+.f-str\(cond\) {font-stretch: condensed;}
+.f-str\(sem-cond\) {font-stretch: semi-condensed;}
+.f-str\(nor\) {font-stretch: normal;}
+.f-str\(sem-expd\) {font-stretch: semi-expanded;}
+.f-str\(expd\) {font-stretch: expanded;}
+.f-str\(ex-expd\) {font-stretch: extra-expanded;}
+.f-str\(ul-expd\) {font-stretch: ultra-expanded;}
+.f-str\(inh\) {font-stretch: inherit;}
+.f-str\(init\) {font-stretch: initial;}
+.f-str\(uns\) {font-stretch: unset;}
+.f-str\(rvt\) {font-stretch: revert;}
+
+.f-sz\(0\) {font-size: 0;}
+.f-sz\(xx-sm\) {font-size: xx-small;}
+.f-sz\(x-sm\) {font-size: x-small;}
+.f-sz\(sm\) {font-size: small;}
+.f-sz\(med\) {font-size: medium;}
+.f-sz\(lrg\) {font-size: large;}
+.f-sz\(x-lrg\) {font-size: x-large;}
+.f-sz\(xx-lrg\) {font-size: xx-large;}
+.f-sz\(lrgr\) {font-size: larger;}
+.f-sz\(smr\) {font-size: smaller;}
+.f-sz\(inh\) {font-size: inherit;}
+.f-sz\(init\) {font-size: initial;}
+.f-sz\(uns\) {font-size: unset;}
+
+.ln-h\(0\) {line-height: 0;}
+.ln-h\(nor\) {line-height: normal;}
+.ln-h\(inh\) {line-height: inherit;}
+.ln-h\(init\) {line-height: initial;}
+.ln-h\(uns\) {line-height: unset;}
+
+.tx-al\(lf\) {text-align: left;}
+.tx-al\(rg\) {text-align: right;}
+.tx-al\(cn\) {text-align: center;}
+.tx-al\(j\) {text-align: justify;}
+.tx-al\(st\) {text-align: start;}
+.tx-al\(end\) {text-align: end;}
+.tx-al\(mat-par\) {text-align: match-parent;}
+.tx-al\(st\ end\) {text-align: start end;}
+.tx-al\(\.\) {text-align: ".";}
+.tx-al\(st\.\) {text-align: start ".";}
+.tx-al\(\.end\) {text-align: "." end;}
+.tx-al\(inh\) {text-align: inherit;}
+
+.tx-dec\(n\) {text-decoration: none;}
+.tx-dec\(inh\) {text-decoration: inherit;}
+.tx-dec\(init\) {text-decoration: initial;}
+.tx-dec\(uns\) {text-decoration: unset;}
+.tx-dec\(rvt\) {text-decoration: revert;}
+
+.tx-dec-c\(trp\) {text-decoration-color: transparent;}
+.tx-dec-c\(cur\) {text-decoration-color: currentColor;}
+.tx-dec-c\(inh\) {text-decoration-color: inherit;}
+.tx-dec-c\(init\) {text-decoration-color: initial;}
+.tx-dec-c\(uns\) {text-decoration-color: unset;}
+.tx-dec-c\(rvt\) {text-decoration-color: revert;}
+
+.tx-dec-ln\(n\) {text-decoration-line: none;}
+.tx-dec-ln\(unln\) {text-decoration-line: underline;}
+.tx-dec-ln\(ovln\) {text-decoration-line: overline;}
+.tx-dec-ln\(ln-thr\) {text-decoration-line: line-through;}
+.tx-dec-ln\(bl\) {text-decoration-line: blink;}
+.tx-dec-ln\(unln\ ovln\) {text-decoration-line: underline overline;}
+.tx-dec-ln\(ovln\ unln\ ln-thr\) {text-decoration-line: overline underline line-through;}
+.tx-dec-ln\(inh\) {text-decoration-line: inherit;}
+.tx-dec-ln\(init\) {text-decoration-line: initial;}
+.tx-dec-ln\(uns\) {text-decoration-line: unset;}
+.tx-dec-ln\(rvt\) {text-decoration-line: revert;}
+
+.tx-dec-sty\(sol\) {text-decoration-style: solid;}
+.tx-dec-sty\(dou\) {text-decoration-style: double;}
+.tx-dec-sty\(dot\) {text-decoration-style: dotted;}
+.tx-dec-sty\(das\) {text-decoration-style: dashed;}
+.tx-dec-sty\(wav\) {text-decoration-style: wavy;}
+.tx-dec-sty\(inh\) {text-decoration-style: inherit;}
+.tx-dec-sty\(init\) {text-decoration-style: initial;}
+.tx-dec-sty\(uns\) {text-decoration-style: unset;}
+.tx-dec-sty\(rvt\) {text-decoration-style: revert;}
+
+.tx-dec-thks\(a\) {text-decoration-thickness: auto;}
+.tx-dec-thks\(fr-f\) {text-decoration-thickness: from-font;}
+.tx-dec-thks\(inh\) {text-decoration-thickness: inherit;}
+.tx-dec-thks\(init\) {text-decoration-thickness: initial;}
+.tx-dec-thks\(uns\) {text-decoration-thickness: unset;}
+.tx-dec-thks\(rvt\) {text-decoration-thickness: revert;}
+
+.tx-ind\(inh\) {text-indent: inherit;}
+.tx-ind\(init\) {text-indent: initial;}
+.tx-ind\(uns\) {text-indent: unset;}
+
+.tx-shd\(inh\) {text-shadow: inherit;}
+.tx-shd\(init\) {text-shadow: initial;}
+.tx-shd\(uns\) {text-shadow: unset;}
+
+
+
+/*========== decoration  ==========*/
 
 
 
 
 
-/*==========  block-model  ==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

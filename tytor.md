@@ -65,8 +65,8 @@ border-block-style (en-US)
 border-block-width (en-US)
 <!-- border-bottom
 border-bottom-color (en-US) -->
-border-bottom-left-radius (en-US)
-border-bottom-right-radius (en-US)
+<!-- border-bottom-left-radius (en-US)
+border-bottom-right-radius (en-US) -->
 <!-- border-bottom-style (en-US)
 border-bottom-width (en-US) -->
 border-collapse (en-US)
@@ -95,7 +95,7 @@ border-inline-width (en-US)
 border-left-color (en-US)
 border-left-style (en-US)
 border-left-width (en-US) -->
-border-radius
+<!-- border-radius -->
 <!-- border-right (en-US)
 border-right-color (en-US)
 border-right-style (en-US)
@@ -106,8 +106,8 @@ border-start-start-radius (en-US)
 border-style (en-US)
 <!-- border-top (en-US)
 border-top-color (en-US) -->
-border-top-left-radius (en-US)
-border-top-right-radius (en-US)
+<!-- border-top-left-radius (en-US)
+border-top-right-radius (en-US) -->
 <!-- border-top-style (en-US)
 border-top-width (en-US)
 border-width -->
@@ -201,23 +201,17 @@ float
 :focus
 :focus-visible
 :focus-within
-font
-font-display (@font-face)
-@font-face
-font-family
-font-family (@font-face)
+<!-- font -->
+<!-- font-family -->
 font-feature-settings (en-US)
 font-feature-settings (@font-face)
-@font-feature-values
 font-kerning (en-US)
 font-language-override (en-US)
 font-optical-sizing (en-US)
-font-size
+<!-- font-size -->
 font-size-adjust (en-US)
-font-stretch (en-US)
-font-stretch (@font-face) (en-US)
-font-style
-font-style (@font-face) (en-US)
+<!-- font-stretch (en-US) -->
+<!-- font-style -->
 font-synthesis (en-US)
 font-variant (en-US)
 font-variant (@font-face) (en-US)
@@ -229,8 +223,7 @@ font-variant-numeric
 font-variant-position (en-US)
 font-variation-settings (en-US)
 font-variation-settings (@font-face) (en-US)
-font-weight
-font-weight (@font-face) (en-US)
+<!-- font-weight -->
 forced-color-adjust (en-US)
 format() (en-US)
 <frequency> (en-US)
@@ -597,33 +590,30 @@ target-counters()
 ::target-text (en-US)
 target-text()
 :target-within (en-US)
-text-align
+<!-- text-align -->
 text-align-last
 text-combine-upright (en-US)
-text-decoration (en-US)
+<!-- text-decoration (en-US)
 text-decoration-color (en-US)
-text-decoration-line (en-US)
+text-decoration-line (en-US) -->
 text-decoration-skip
 text-decoration-skip-ink (en-US)
-text-decoration-style (en-US)
-text-decoration-thickness (en-US)
+<!-- text-decoration-style (en-US)
+text-decoration-thickness (en-US) -->
 text-emphasis (en-US)
 text-emphasis-color (en-US)
 text-emphasis-position (en-US)
 text-emphasis-style (en-US)
-text-indent
-text-justify
+<!-- text-indent -->
+
 text-orientation (en-US)
 text-overflow (en-US)
 text-rendering (en-US)
-text-shadow
+<!-- text-shadow -->
 text-size-adjust
 text-transform (en-US)
 text-underline-offset (en-US)
 text-underline-position (en-US)
-<time>
-<time-percentage> (en-US)
-<timing-function> (en-US)
 <!-- top -->
 <!-- @top-center -->
 touch-action
