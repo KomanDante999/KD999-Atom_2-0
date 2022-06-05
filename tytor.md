@@ -50,7 +50,7 @@ bleed (@page)
 block-overflow
 block-size
 blur()
-border
+<!-- border -->
 border-block (en-US)
 border-block-color (en-US)
 border-block-end (en-US)
@@ -63,14 +63,14 @@ border-block-start-style (en-US)
 border-block-start-width (en-US)
 border-block-style (en-US)
 border-block-width (en-US)
-border-bottom
-border-bottom-color (en-US)
+<!-- border-bottom
+border-bottom-color (en-US) -->
 border-bottom-left-radius (en-US)
 border-bottom-right-radius (en-US)
-border-bottom-style (en-US)
-border-bottom-width (en-US)
+<!-- border-bottom-style (en-US)
+border-bottom-width (en-US) -->
 border-collapse (en-US)
-border-color (en-US)
+<!-- border-color (en-US) -->
 border-end-end-radius (en-US)
 border-end-start-radius (en-US)
 border-image (en-US)
@@ -91,26 +91,26 @@ border-inline-start-style (en-US)
 border-inline-start-width (en-US)
 border-inline-style (en-US)
 border-inline-width (en-US)
-border-left (en-US)
+<!-- border-left (en-US)
 border-left-color (en-US)
 border-left-style (en-US)
-border-left-width (en-US)
+border-left-width (en-US) -->
 border-radius
-border-right (en-US)
+<!-- border-right (en-US)
 border-right-color (en-US)
 border-right-style (en-US)
-border-right-width (en-US)
+border-right-width (en-US) -->
 border-spacing (en-US)
 border-start-end-radius (en-US)
 border-start-start-radius (en-US)
 border-style (en-US)
-border-top (en-US)
-border-top-color (en-US)
+<!-- border-top (en-US)
+border-top-color (en-US) -->
 border-top-left-radius (en-US)
 border-top-right-radius (en-US)
-border-top-style (en-US)
+<!-- border-top-style (en-US)
 border-top-width (en-US)
-border-width
+border-width -->
 bc cxbox-decoration-break (en-US)
 box-shadow
 <!-- box-sizing -->
@@ -119,7 +119,7 @@ break-before (en-US)
 break-inside (en-US)
 brightness() (en-US)
 C
-calc()
+
 caption-side (en-US)
 caret-color (en-US)
 @character-variant
@@ -131,7 +131,6 @@ clamp()
 clear
 clip (en-US)
 clip-path
-<color>
 color (en-US)
 color-scheme
 column-count

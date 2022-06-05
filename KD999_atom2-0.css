@@ -436,16 +436,40 @@
 .brd-lf-sty\(uns\) {border-left-style: unset;}
 .brd-lf-sty\(rvt\) {border-left-style: revert;}
 
-.brd-c\(inh\) {border-color: transparent;}
-.brd-c\(inh\) {border-color: currentColor;}
+.brd-c\(t-p\) {border-color: transparent;}
+.brd-c\(cur\) {border-color: currentColor;}
 .brd-c\(inh\) {border-color: inherit;}
 .brd-c\(init\) {border-color: initial;}
 .brd-c\(uns\) {border-color: unset;}
 .brd-c\(rvt\) {border-color: revert;}
 
+.brd-tp-c\(t-p\) {border-top-color: transparent;}
+.brd-tp-c\(cur\) {border-top-color: currentColor;}
+.brd-tp-c\(inh\) {border-top-color: inherit;}
+.brd-tp-c\(init\) {border-top-color: initial;}
+.brd-tp-c\(uns\) {border-top-color: unset;}
+.brd-tp-c\(rvt\) {border-top-color: revert;}
 
+.brd-rg-c\(t-p\) {border-right-color: transparent;}
+.brd-rg-c\(cur\) {border-right-color: currentColor;}
+.brd-rg-c\(inh\) {border-right-color: inherit;}
+.brd-rg-c\(init\) {border-right-color: initial;}
+.brd-rg-c\(uns\) {border-right-color: unset;}
+.brd-rg-c\(rvt\) {border-right-color: revert;}
 
+.brd-bt-tp-c\(t-p\) {border-bottom-color: transparent;}
+.brd-bt-tp-c\(cur\) {border-bottom-color: currentColor;}
+.brd-bt-tp-c\(inh\) {border-bottom-color: inherit;}
+.brd-bt-tp-c\(init\) {border-bottom-color: initial;}
+.brd-bt-tp-c\(uns\) {border-bottom-color: unset;}
+.brd-bt-tp-c\(rvt\) {border-bottom-color: revert;}
 
+.brd-lf-c\(t-p\) {border-left-color: transparent;}
+.brd-lf-c\(cur\) {border-left-color: currentColor;}
+.brd-lf-c\(inh\) {border-left-color: inherit;}
+.brd-lf-c\(init\) {border-left-color: initial;}
+.brd-lf-c\(uns\) {border-left-color: unset;}
+.brd-lf-c\(rvt\) {border-left-color: revert;}
 
 
 

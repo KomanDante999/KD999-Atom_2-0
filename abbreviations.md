@@ -8,6 +8,7 @@ bas - basis
 bet - between
 brd - border
 c - color
+cur - currentColor
 cn - center
 col - column
 cont - content
@@ -58,10 +59,10 @@ sp - space
 szg - sizing
 tp - top
 tb - table
-t-sp - transparent
-t-f - transform
-transition - transition
-translate - translate
+t-p - transparent
+t-frm - transform
+t-sit - transition
+tr - translate
 tx - text
 uns - unset
 w - width
