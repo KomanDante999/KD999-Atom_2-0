@@ -369,7 +369,7 @@
 .brd-sty\(gro\) {border-style: groove;}
 .brd-sty\(rid\) {border-style: ridge;}
 .brd-sty\(ins\) {border-style: inset;}
-.brd-sty\(o-set\) {border-style: outset;}
+.brd-sty\(oset\) {border-style: outset;}
 .brd-sty\(inh\) {border-style: inherit;}
 .brd-sty\(init\) {border-style: initial;}
 .brd-sty\(uns\) {border-style: unset;}
@@ -384,7 +384,7 @@
 .brd-tp-sty\(gro\) {border-top-style: groove;}
 .brd-tp-sty\(rid\) {border-top-style: ridge;}
 .brd-tp-sty\(ins\) {border-top-style: inset;}
-.brd-tp-sty\(o-set\) {border-top-style: outset;}
+.brd-tp-sty\(oset\) {border-top-style: outset;}
 .brd-tp-sty\(inh\) {border-top-style: inherit;}
 .brd-tp-sty\(init\) {border-top-style: initial;}
 .brd-tp-sty\(uns\) {border-top-style: unset;}
@@ -399,7 +399,7 @@
 .brd-rg-sty\(gro\) {border-right-style: groove;}
 .brd-rg-sty\(rid\) {border-right-style: ridge;}
 .brd-rg-sty\(ins\) {border-right-style: inset;}
-.brd-rg-sty\(o-set\) {border-right-style: outset;}
+.brd-rg-sty\(oset\) {border-right-style: outset;}
 .brd-rg-sty\(inh\) {border-right-style: inherit;}
 .brd-rg-sty\(init\) {border-right-style: initial;}
 .brd-rg-sty\(uns\) {border-right-style: unset;}
@@ -414,7 +414,7 @@
 .brd-bt-sty\(gro\) {border-bottom-style: groove;}
 .brd-bt-sty\(rid\) {border-bottom-style: ridge;}
 .brd-bt-sty\(ins\) {border-bottom-style: inset;}
-.brd-bt-sty\(o-set\) {border-bottom-style: outset;}
+.brd-bt-sty\(oset\) {border-bottom-style: outset;}
 .brd-bt-sty\(inh\) {border-bottom-style: inherit;}
 .brd-bt-sty\(init\) {border-bottom-style: initial;}
 .brd-bt-sty\(uns\) {border-bottom-style: unset;}
@@ -429,7 +429,7 @@
 .brd-lf-sty\(gro\) {border-left-style: groove;}
 .brd-lf-sty\(rid\) {border-left-style: ridge;}
 .brd-lf-sty\(ins\) {border-left-style: inset;}
-.brd-lf-sty\(o-set\) {border-left-style: outset;}
+.brd-lf-sty\(oset\) {border-left-style: outset;}
 .brd-lf-sty\(inh\) {border-left-style: inherit;}
 .brd-lf-sty\(init\) {border-left-style: initial;}
 .brd-lf-sty\(uns\) {border-left-style: unset;}
@@ -469,6 +469,44 @@
 .brd-lf-c\(init\) {border-left-color: initial;}
 .brd-lf-c\(uns\) {border-left-color: unset;}
 .brd-lf-c\(rvt\) {border-left-color: revert;}
+
+.brd-img\(inh\) {border-image: inherit;}
+.brd-img\(init\) {border-image: initial;}
+.brd-img\(uns\) {border-image: unset;}
+.brd-img\(rvt\) {border-image: revert;}
+
+.brd-img-oset\(0\) {border-image-outset: 0;}
+.brd-img-oset\(inh\) {border-image-outset: inherit;}
+.brd-img-oset\(init\) {border-image-outset: initial;}
+.brd-img-oset\(uns\) {border-image-outset: unset;}
+.brd-img-oset\(rvt\) {border-image-outset: revert;}
+
+.brd-img-rep\(str\) {border-image-repeat: stretch;}
+.brd-img-rep\(rep\) {border-image-repeat: repeat;}
+.brd-img-rep\(rnd\) {border-image-repeat: round;}
+.brd-img-rep\(sp\) {border-image-repeat: space;}
+.brd-img-rep\(inh\) {border-image-repeat: inherit;}
+.brd-img-rep\(init\) {border-image-repeat: initial;}
+.brd-img-rep\(uns\) {border-image-repeat: unset;}
+.brd-img-rep\(rvt\) {border-image-repeat: revert;}
+
+.brd-img-sli\(inh\) {border-image-slice: inherit;}
+.brd-img-sli\(init\) {border-image-slice: initial;}
+.brd-img-sli\(uns\) {border-image-slice: unset;}
+.brd-img-sli\(rvt\) {border-image-slice: revert;}
+
+.brd-img-src\(n\) {border-image-source: none;}
+.brd-img-src\(inh\) {border-image-source: inherit;}
+.brd-img-src\(init\) {border-image-source: initial;}
+.brd-img-src\(uns\) {border-image-source: unset;}
+.brd-img-src\(rvt\) {border-image-source: revert;}
+
+.brd-img-w\(0\) {border-image-width: 0;}
+.brd-img-w\(a\) {border-image-width: auto;}
+.brd-img-w\(inh\) {border-image-width: inherit;}
+.brd-img-w\(init\) {border-image-width: initial;}
+.brd-img-w\(uns\) {border-image-width: unset;}
+.brd-img-w\(rvt\) {border-image-width: revert;}
 
 .brd-r\(0\) {border-radius: 0;}
 .brd-r\(inh\) {border-radius: inherit;}
@@ -632,7 +670,6 @@
 .tx-shd\(inh\) {text-shadow: inherit;}
 .tx-shd\(init\) {text-shadow: initial;}
 .tx-shd\(uns\) {text-shadow: unset;}
-
 
 
 /*========== decoration  ==========*/
