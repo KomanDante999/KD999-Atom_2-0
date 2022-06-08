@@ -1,0 +1,749 @@
+/*==========  block-model  ==========*/
+
+.bx-szn\(brd-bx\) {box-sizing: border-box;}
+.bx-szn\(cnt-bx\) {box-sizing: content-box;}
+.bx-szn\(inh\) {box-sizing: inherit;}
+.bx-szn\(int\) {box-sizing: initial;}
+.bx-szn\(uns\) {box-sizing: unset;}
+
+.d\(n\) {display: none;}
+.d\(inh\) {display: inherit;}
+.d\(int\) {display: initial;}
+.d\(uns\) {display: unset;}
+.d\(blc\) {display: block;}
+.d\(inl\) {display: inline;}
+.d\(rn-in\) {display: run-in;}
+.d\(flw\) {display: flow;}
+.d\(flw-rt\) {display: flow-root;}
+.d\(tbl\) {display: table;}
+.d\(fl\) {display: flex;}
+.d\(grd\) {display: grid;}
+.d\(rb\) {display: ruby;}
+.d\(inl-blc\) {display: inline-block;}
+.d\(inl-tbl\) {display: inline-table;}
+.d\(inl-fl\) {display: inline-flex;}
+.d\(inl-grd\) {display: inline-grid;}
+.d\(lst-i\) {display: list-item;}
+.d\(tbl-rw-grp\) {display: table-row-group;}
+.d\(tbl-hdr-grp\) {display: table-header-group;}
+.d\(tbl-ftr-grp\) {display: table-footer-group;}
+.d\(tbl-rw\) {display: table-row;}
+.d\(tbl-cll\) {display: table-cell;}
+.d\(tbl-clm-grp\) {display: table-column-group;}
+.d\(tbl-clm\) {display: table-column;}
+.d\(tbl-cpt\) {display: table-caption;}
+.d\(rb-bs\) {display: ruby-base;}
+.d\(rb-txt\) {display: ruby-text;}
+.d\(rb-txt-cntnr\) {display: ruby-text-container;}
+
+.pst\(stt\) {position: static;}
+.pst\(rlt\) {position: relative;}
+.pst\(abs\) {position: absolute;}
+.pst\(fxd\) {position: fixed;}
+.pst\(stc\) {position: sticky;}
+
+.t\(0\) {top: 0;}
+.t\(a\) {top: auto;}
+.t\(inh\) {top: inherit;}
+.t\(int\) {top: initial;}
+.t\(uns\) {top: unset;}
+.r\(0\) {right: 0;}
+.r\(a\) {right: auto;}
+.r\(inh\) {right: inherit;}
+.r\(int\) {right: initial;}
+.r\(uns\) {right: unset;}
+.b\(0\) {bottom: 0;}
+.b\(a\) {bottom: auto;}
+.b\(inh\) {bottom: inherit;}
+.b\(int\) {bottom: initial;}
+.b\(uns\) {bottom: unset;}
+.l\(0\) {left: 0;}
+.l\(a\) {left: auto;}
+.l\(inh\) {left: inherit;}
+.l\(int\) {left: initial;}
+.l\(uns\) {left: unset;}
+
+.z\(0\) {z-index: 0;}
+.z\(a\) {z-index: auto;}
+.z\(inh\) {z-index: inherit;}
+.z\(int\) {z-index: initial;}
+.z\(uns\) {z-index: unset;}
+.z\(rvt\) {z-index: revert;}
+
+/* width */
+.w\(0\) {width: 0;}
+.w\(100\%\) {width: 100%;}
+.w\(a\) {width: auto;}
+.w\(inh\) {width: inherit;}
+.w\(int\) {width: initial;}
+.w\(uns\) {width: unset;}
+
+.mx-w\(n\) {max-width: none;}
+.mx-w\(mx-cnt\) {max-width: max-content;}
+.mx-w\(mn-cnt\) {max-width: min-content;}
+.mx-w\(fit-cnt\) {max-width: fit-content;}
+.mx-w\(fll-avl\) {max-width: fill-available;}
+.mx-w\(inh\) {max-width: inherit;}
+.mx-w\(int\) {max-width: initial;}
+.mx-w\(uns\) {max-width: unset;}
+
+.mn-w\(a\) {min-width: auto;}
+.mn-w\(mx-cnt\) {min-width: max-content;}
+.mn-w\(mn-cnt\) {min-width: min-content;}
+.mn-w\(fit-cnt\) {min-width: fit-content;}
+.mn-w\(fll-avl\) {min-width: fill-available;}
+.mn-w\(inh\) {min-width: inherit;}
+.mn-w\(int\) {min-width: initial;}
+.mn-w\(uns\) {min-width: unset;}
+
+/* height */
+.h\(0\) {height: 0;}
+.h\(100\%\) {height: 100%;}
+.h\(a\) {height: auto;}
+.h\(inh\) {height: inherit;}
+.h\(int\) {height: initial;}
+.h\(uns\) {height: unset;}
+
+.mx-h\(n\) {max-height: none;}
+.mx-h\(mx-cnt\) {max-height: max-content;}
+.mx-h\(mn-cnt\) {max-height: min-content;}
+.mx-h\(fit-cnt\) {max-height: fit-content;}
+.mx-h\(fll-avl\) {max-height: fill-available;}
+.mx-h\(inh\) {max-height: inherit;}
+.mx-h\(int\) {max-height: initial;}
+.mx-h\(uns\) {max-height: unset;}
+
+.mn-h\(a\) {min-height: auto;}
+.mn-h\(mx-cnt\) {min-height: max-content;}
+.mn-h\(mn-cnt\) {min-height: min-content;}
+.mn-h\(fit-cnt\) {min-height: fit-content;}
+.mn-h\(fll-avl\) {min-height: fill-available;}
+.mn-h\(inh\) {min-height: inherit;}
+.mn-h\(int\) {min-height: initial;}
+.mn-h\(uns\) {min-height: unset;}
+
+/*-- flexbox --*/
+.fl\(n\) {flex: none;}
+.fl\(a\) {flex: auto;}
+.fl\(inh\) {flex: inherit;}
+.fl\(int\) {flex: initial;}
+.fl\(uns\) {flex: unset;}
+
+.fl-bss\(0\) {flex-basis: 0;}
+.fl-bss\(a\) {flex-basis: auto;}
+.fl-bss\(inh\) {flex-basis: inherit;}
+.fl-bss\(int\) {flex-basis: initial;}
+.fl-bss\(uns\) {flex-basis: unset;}
+.fl-bss\(cnt\) {flex-basis: content;}
+.fl-bss\(fll\) {flex-basis: fill;}
+.fl-bss\(mx-cnt\) {flex-basis: max-content;}
+.fl-bss\(mn-cnt\) {flex-basis: min-content;}
+.fl-bss\(fit-cnt\) {flex-basis: fit-content;}
+
+.fl-shr\(0\) {flex-shrink: 0;}
+.fl-shr\(inh\) {flex-shrink: inherit;}
+.fl-shr\(int\) {flex-shrink: initial;}
+.fl-shr\(uns\) {flex-shrink: unset;}
+.fl-grw\(0\) {flex-grow: 0;}
+.fl-grw\(inh\) {flex-grow: inherit;}
+.fl-grw\(int\) {flex-grow: initial;}
+.fl-grw\(uns\) {flex-grow: unset;}
+
+.fl-drc\(rw\) {flex-direction: row;}
+.fl-drc\(rw-rvs\) {flex-direction: row-reverse;}
+.fl-drc\(clm\) {flex-direction: column;}
+.fl-drc\(clm-rvs\) {flex-direction: column-reverse;}
+.fl-drc\(inh\) {flex-direction: inherit;}
+.fl-drc\(int\) {flex-direction: initial;}
+.fl-drc\(uns\) {flex-direction: unset;}
+
+.fl-wrp\(wrp\) {flex-wrap: wrap;}
+.fl-wrp\(nowrp\) {flex-wrap: nowrap;}
+.fl-wrp\(wr-rvs\) {flex-wrap: wrap-reverse;}
+.fl-wrp\(inh\) {flex-wrap: inherit;}
+.fl-wrp\(int\) {flex-wrap: initial;}
+.fl-wrp\(uns\) {flex-wrap: unset;}
+
+.alg-i\(fl-st\) {align-items: flex-start;}
+.alg-i\(fl-end\) {align-items: flex-end;}
+.alg-i\(cn\) {align-items: center;}
+.alg-i\(bs-ln\) {align-items: baseline;}
+.alg-i\(str\) {align-items: stretch;}
+.alg-i\(inh\) {align-items: inherit;}
+.alg-i\(int\) {align-items: initial;}
+.alg-i\(uns\) {align-items: unset;}
+
+.alg-slf\(a\) {align-self: auto;}
+.alg-slf\(nrm\) {align-self: normal;}
+.alg-slf\(st\) {align-self: start;}
+.alg-slf\(end\) {align-self: end;}
+.alg-slf\(fl-st\) {align-self: flex-start;}
+.alg-slf\(fl-end\) {align-self: flex-end;}
+.alg-slf\(cn\) {align-self: center;}
+.alg-slf\(bs-ln\) {align-self: baseline;}
+.alg-slf\(str\) {align-self: stretch;}
+.alg-slf\(inh\) {align-self: inherit;}
+.alg-slf\(int\) {align-self: initial;}
+.alg-slf\(uns\) {align-self: unset;}
+
+.alg-cnt\(nrm\) {align-content: normal;}
+.alg-cnt\(st\) {align-content: start;}
+.alg-cnt\(end\) {align-content: end;}
+.alg-cnt\(fl-st\) {align-content: flex-start;}
+.alg-cnt\(fl-end\) {align-content: flex-end;}
+.alg-cnt\(cn\) {align-content: center;}
+.alg-cnt\(bs-ln\) {align-content: baseline;}
+.alg-cnt\(str\) {align-content: stretch;}
+.alg-cnt\(spc-btw\) {align-content: space-between;}
+.alg-cnt\(spc-arn\) {align-content: space-around;}
+.alg-cnt\(spc-evn\) {align-content: space-evenly;}
+.alg-cnt\(inh\) {align-content: inherit;}
+.alg-cnt\(int\) {align-content: initial;}
+.alg-cnt\(uns\) {align-content: unset;}
+
+.j-cnt\(l\) {justify-content: left;}
+.j-cnt\(r\) {justify-content: right;}
+.j-cnt\(st\) {justify-content: start;}
+.j-cnt\(end\) {justify-content: end;}
+.j-cnt\(fl-st\) {justify-content: flex-start;}
+.j-cnt\(fl-end\) {justify-content: flex-end;}
+.j-cnt\(cn\) {justify-content: center;}
+.j-cnt\(bs-ln\) {justify-content: baseline;}
+.j-cnt\(str\) {justify-content: stretch;}
+.j-cnt\(spc-btw\) {justify-content: space-between;}
+.j-cnt\(spc-arn\) {justify-content: space-around;}
+.j-cnt\(spc-evn\) {justify-content: space-evenly;}
+.j-cnt\(inh\) {justify-content: inherit;}
+.j-cnt\(int\) {justify-content: initial;}
+.j-cnt\(uns\) {justify-content: unset;}
+
+.j-slf\(a\) {justify-self: auto;}
+.j-slf\(nrm\) {justify-self: normal;}
+.j-slf\(str\) {justify-self: stretch;}
+.j-slf\(cn\) {justify-self: center;}
+.j-slf\(st\) {justify-self: start;}
+.j-slf\(end\) {justify-self: end;}
+.j-slf\(fl-st\) {justify-self: flex-start;}
+.j-slf\(fl-end\) {justify-self: flex-end;}
+.j-slf\(l\) {justify-self: left;}
+.j-slf\(r\) {justify-self: right;}
+.j-slf\(bs-ln\) {justify-self: baseline;}
+.j-slf\(inh\) {justify-self: inherit;}
+.j-slf\(int\) {justify-self: initial;}
+.j-slf\(uns\) {justify-self: unset;}
+.j-slf\(rvt\) {justify-self: revert;}
+
+.j-i\(a\) {justify-items: auto;}
+.j-i\(nrm\) {justify-items: normal;}
+.j-i\(str\) {justify-items: stretch;}
+.j-i\(cn\) {justify-items: center;}
+.j-i\(st\) {justify-items: start;}
+.j-i\(end\) {justify-items: end;}
+.j-i\(fl-st\) {justify-items: flex-start;}
+.j-i\(fl-end\) {justify-items: flex-end;}
+.j-i\(l\) {justify-items: left;}
+.j-i\(r\) {justify-items: right;}
+.j-i\(bs-ln\) {justify-items: baseline;}
+.j-i\(inh\) {justify-items: inherit;}
+.j-i\(int\) {justify-items: initial;}
+.j-i\(uns\) {justify-items: unset;}
+
+.ord\(inh\) {order: inherit;}
+.ord\(int\) {order: initial;}
+.ord\(uns\) {order: unset;}
+.ord\(inh\) {order: inherit;}
+.ord\(int\) {order: initial;}
+.ord\(uns\) {order: unset;}
+
+/* grid */
+
+/* padding */
+.p\(0\) {padding: 0;}
+.p\(inh\) {padding: inherit;}
+.p\(int\) {padding: initial;}
+.p\(uns\) {padding: unset;}
+
+.p-t\(0\) {padding-top: 0;}
+.p-t\(inh\) {padding-top: inherit;}
+.p-t\(int\) {padding-top: initial;}
+.p-t\(uns\) {padding-top: unset;}
+
+.p-r\(0\) {padding-right: 0;}
+.p-r\(inh\) {padding-right: inherit;}
+.p-r\(int\) {padding-right: initial;}
+.p-r\(uns\) {padding-right: unset;}
+
+.p-b\(0\) {padding-bottom: 0;}
+.p-b\(inh\) {padding-bottom: inherit;}
+.p-b\(int\) {padding-bottom: initial;}
+.p-b\(uns\) {padding-bottom: unset;}
+
+.p-l\(0\) {padding-left: 0;}
+.p-l\(inh\) {padding-left: inherit;}
+.p-l\(int\) {padding-left: initial;}
+.p-l\(uns\) {padding-left: unset;}
+
+/* margin */
+.m\(a\) {margin: auto;}
+.m\(0\) {margin: 0;}
+.m\(inh\) {margin: inherit;}
+.m\(int\) {margin: initial;}
+.m\(uns\) {margin: unset;}
+
+.m-t\(a\) {margin-top: auto;}
+.m-t\(0\) {margin-top: 0;}
+.m-t\(inh\) {margin-top: inherit;}
+.m-t\(int\) {margin-top: initial;}
+.m-t\(uns\) {margin-top: unset;}
+
+.m-r\(a\) {margin-right: auto;}
+.m-r\(0\) {margin-right: 0;}
+.m-r\(inh\) {margin-right: inherit;}
+.m-r\(int\) {margin-right: initial;}
+.m-r\(uns\) {margin-right: unset;}
+
+.m-b\(a\) {margin-bottom: auto;}
+.m-b\(0\) {margin-bottom: 0;}
+.m-b\(inh\) {margin-bottom: inherit;}
+.m-b\(int\) {margin-bottom: initial;}
+.m-b\(uns\) {margin-bottom: unset;}
+
+.m-l\(a\) {margin-left: auto;}
+.m-l\(0\) {margin-left: 0;}
+.m-l\(inh\) {margin-left: inherit;}
+.m-l\(int\) {margin-left: initial;}
+.m-l\(uns\) {margin-left: unset;}
+
+/* border */
+.brd-w\(0\) {border-width: 0;}
+.brd-w\(thn\) {border-width: thin;}
+.brd-w\(mdm\) {border-width: medium;}
+.brd-w\(thc\) {border-width: thick;}
+.brd-w\(inh\) {border-width: inherit;}
+.brd-w\(int\) {border-width: initial;}
+.brd-w\(uns\) {border-width: unset;}
+.brd-w\(rvt\) {border-width: revert;}
+
+.brd-t-w\(0\) {border-top-width: 0;}
+.brd-t-w\(thn\) {border-top-width: thin;}
+.brd-t-w\(mdm\) {border-top-width: medium;}
+.brd-t-w\(thc\) {border-top-width: thick;}
+.brd-t-w\(inh\) {border-top-width: inherit;}
+.brd-t-w\(int\) {border-top-width: initial;}
+.brd-t-w\(uns\) {border-top-width: unset;}
+.brd-t-w\(rvt\) {border-top-width: revert;}
+
+.brd-r-w\(0\) {border-right-width: 0;}
+.brd-r-w\(thn\) {border-right-width: thin;}
+.brd-r-w\(mdm\) {border-right-width: medium;}
+.brd-r-w\(thc\) {border-right-width: thick;}
+.brd-r-w\(inh\) {border-right-width: inherit;}
+.brd-r-w\(int\) {border-right-width: initial;}
+.brd-r-w\(uns\) {border-right-width: unset;}
+.brd-r-w\(rvt\) {border-right-width: revert;}
+
+.brd-b-w\(0\) {border-bottom-width: 0;}
+.brd-b-w\(thn\) {border-bottom-width: thin;}
+.brd-b-w\(mdm\) {border-bottom-width: medium;}
+.brd-b-w\(thc\) {border-bottom-width: thick;}
+.brd-b-w\(inh\) {border-bottom-width: inherit;}
+.brd-b-w\(int\) {border-bottom-width: initial;}
+.brd-b-w\(uns\) {border-bottom-width: unset;}
+.brd-b-w\(rvt\) {border-bottom-width: revert;}
+
+.brd-l-w\(0\) {border-left-width: 0;}
+.brd-l-w\(thn\) {border-left-width: thin;}
+.brd-l-w\(mdm\) {border-left-width: medium;}
+.brd-l-w\(thc\) {border-left-width: thick;}
+.brd-l-w\(inh\) {border-left-width: inherit;}
+.brd-l-w\(int\) {border-left-width: initial;}
+.brd-l-w\(uns\) {border-left-width: unset;}
+.brd-l-w\(rvt\) {border-left-width: revert;}
+
+.brd-s\(n\) {border-style: none;}
+.brd-s\(hdd\) {border-style: hidden;}
+.brd-s\(dtt\) {border-style: dotted;}
+.brd-s\(dsh\) {border-style: dashed;}
+.brd-s\(sld\) {border-style: solid;}
+.brd-s\(dbl\) {border-style: double;}
+.brd-s\(grv\) {border-style: groove;}
+.brd-s\(rdg\) {border-style: ridge;}
+.brd-s\(ins\) {border-style: inset;}
+.brd-s\(ots\) {border-style: outset;}
+.brd-s\(inh\) {border-style: inherit;}
+.brd-s\(int\) {border-style: initial;}
+.brd-s\(uns\) {border-style: unset;}
+.brd-s\(rvt\) {border-style: revert;}
+
+.brd-t-s\(n\) {border-top-style: none;}
+.brd-t-s\(hdd\) {border-top-style: hidden;}
+.brd-t-s\(dtt\) {border-top-style: dotted;}
+.brd-t-s\(dsh\) {border-top-style: dashed;}
+.brd-t-s\(sld\) {border-top-style: solid;}
+.brd-t-s\(dbl\) {border-top-style: double;}
+.brd-t-s\(grv\) {border-top-style: groove;}
+.brd-t-s\(rdg\) {border-top-style: ridge;}
+.brd-t-s\(ins\) {border-top-style: inset;}
+.brd-t-s\(ots\) {border-top-style: outset;}
+.brd-t-s\(inh\) {border-top-style: inherit;}
+.brd-t-s\(int\) {border-top-style: initial;}
+.brd-t-s\(uns\) {border-top-style: unset;}
+.brd-t-s\(rvt\) {border-top-style: revert;}
+
+.brd-r-s\(n\) {border-right-style: none;}
+.brd-r-s\(hdd\) {border-right-style: hidden;}
+.brd-r-s\(dtt\) {border-right-style: dotted;}
+.brd-r-s\(dsh\) {border-right-style: dashed;}
+.brd-r-s\(sld\) {border-right-style: solid;}
+.brd-r-s\(dbl\) {border-right-style: double;}
+.brd-r-s\(grv\) {border-right-style: groove;}
+.brd-r-s\(rdg\) {border-right-style: ridge;}
+.brd-r-s\(ins\) {border-right-style: inset;}
+.brd-r-s\(ots\) {border-right-style: outset;}
+.brd-r-s\(inh\) {border-right-style: inherit;}
+.brd-r-s\(int\) {border-right-style: initial;}
+.brd-r-s\(uns\) {border-right-style: unset;}
+.brd-r-s\(rvt\) {border-right-style: revert;}
+
+.brd-b-s\(n\) {border-bottom-style: none;}
+.brd-b-s\(hdd\) {border-bottom-style: hidden;}
+.brd-b-s\(dtt\) {border-bottom-style: dotted;}
+.brd-b-s\(dsh\) {border-bottom-style: dashed;}
+.brd-b-s\(sld\) {border-bottom-style: solid;}
+.brd-b-s\(dbl\) {border-bottom-style: double;}
+.brd-b-s\(grv\) {border-bottom-style: groove;}
+.brd-b-s\(rdg\) {border-bottom-style: ridge;}
+.brd-b-s\(ins\) {border-bottom-style: inset;}
+.brd-b-s\(ots\) {border-bottom-style: outset;}
+.brd-b-s\(inh\) {border-bottom-style: inherit;}
+.brd-b-s\(int\) {border-bottom-style: initial;}
+.brd-b-s\(uns\) {border-bottom-style: unset;}
+.brd-b-s\(rvt\) {border-bottom-style: revert;}
+
+.brd-l-s\(n\) {border-left-style: none;}
+.brd-l-s\(hdd\) {border-left-style: hidden;}
+.brd-l-s\(dtt\) {border-left-style: dotted;}
+.brd-l-s\(dsh\) {border-left-style: dashed;}
+.brd-l-s\(sld\) {border-left-style: solid;}
+.brd-l-s\(dbl\) {border-left-style: double;}
+.brd-l-s\(grv\) {border-left-style: groove;}
+.brd-l-s\(rdg\) {border-left-style: ridge;}
+.brd-l-s\(ins\) {border-left-style: inset;}
+.brd-l-s\(ots\) {border-left-style: outset;}
+.brd-l-s\(inh\) {border-left-style: inherit;}
+.brd-l-s\(int\) {border-left-style: initial;}
+.brd-l-s\(uns\) {border-left-style: unset;}
+.brd-l-s\(rvt\) {border-left-style: revert;}
+
+.brd-c\(trp\) {border-color: transparent;}
+.brd-c\(crr\) {border-color: currentColor;}
+.brd-c\(inh\) {border-color: inherit;}
+.brd-c\(int\) {border-color: initial;}
+.brd-c\(uns\) {border-color: unset;}
+.brd-c\(rvt\) {border-color: revert;}
+
+.brd-t-c\(trp\) {border-top-color: transparent;}
+.brd-t-c\(crr\) {border-top-color: currentColor;}
+.brd-t-c\(inh\) {border-top-color: inherit;}
+.brd-t-c\(int\) {border-top-color: initial;}
+.brd-t-c\(uns\) {border-top-color: unset;}
+.brd-t-c\(rvt\) {border-top-color: revert;}
+
+.brd-r-c\(trp\) {border-right-color: transparent;}
+.brd-r-c\(crr\) {border-right-color: currentColor;}
+.brd-r-c\(inh\) {border-right-color: inherit;}
+.brd-r-c\(int\) {border-right-color: initial;}
+.brd-r-c\(uns\) {border-right-color: unset;}
+.brd-r-c\(rvt\) {border-right-color: revert;}
+
+.brd-b-t-c\(trp\) {border-bottom-color: transparent;}
+.brd-b-t-c\(crr\) {border-bottom-color: currentColor;}
+.brd-b-t-c\(inh\) {border-bottom-color: inherit;}
+.brd-b-t-c\(int\) {border-bottom-color: initial;}
+.brd-b-t-c\(uns\) {border-bottom-color: unset;}
+.brd-b-t-c\(rvt\) {border-bottom-color: revert;}
+
+.brd-l-c\(trp\) {border-left-color: transparent;}
+.brd-l-c\(crr\) {border-left-color: currentColor;}
+.brd-l-c\(inh\) {border-left-color: inherit;}
+.brd-l-c\(int\) {border-left-color: initial;}
+.brd-l-c\(uns\) {border-left-color: unset;}
+.brd-l-c\(rvt\) {border-left-color: revert;}
+
+.brd-img\(inh\) {border-image: inherit;}
+.brd-img\(int\) {border-image: initial;}
+.brd-img\(uns\) {border-image: unset;}
+.brd-img\(rvt\) {border-image: revert;}
+
+.brd-img-ots\(0\) {border-image-outset: 0;}
+.brd-img-ots\(inh\) {border-image-outset: inherit;}
+.brd-img-ots\(int\) {border-image-outset: initial;}
+.brd-img-ots\(uns\) {border-image-outset: unset;}
+.brd-img-ots\(rvt\) {border-image-outset: revert;}
+
+.brd-img-rpt\(str\) {border-image-repeat: stretch;}
+.brd-img-rpt\(rpt\) {border-image-repeat: repeat;}
+.brd-img-rpt\(rnd\) {border-image-repeat: round;}
+.brd-img-rpt\(spc\) {border-image-repeat: space;}
+.brd-img-rpt\(inh\) {border-image-repeat: inherit;}
+.brd-img-rpt\(int\) {border-image-repeat: initial;}
+.brd-img-rpt\(uns\) {border-image-repeat: unset;}
+.brd-img-rpt\(rvt\) {border-image-repeat: revert;}
+
+.brd-img-slc\(inh\) {border-image-slice: inherit;}
+.brd-img-slc\(int\) {border-image-slice: initial;}
+.brd-img-slc\(uns\) {border-image-slice: unset;}
+.brd-img-slc\(rvt\) {border-image-slice: revert;}
+
+.brd-img-src\(n\) {border-image-source: none;}
+.brd-img-src\(inh\) {border-image-source: inherit;}
+.brd-img-src\(int\) {border-image-source: initial;}
+.brd-img-src\(uns\) {border-image-source: unset;}
+.brd-img-src\(rvt\) {border-image-source: revert;}
+
+.brd-img-w\(0\) {border-image-width: 0;}
+.brd-img-w\(a\) {border-image-width: auto;}
+.brd-img-w\(inh\) {border-image-width: inherit;}
+.brd-img-w\(int\) {border-image-width: initial;}
+.brd-img-w\(uns\) {border-image-width: unset;}
+.brd-img-w\(rvt\) {border-image-width: revert;}
+
+.brd-rds\(0\) {border-radius: 0;}
+.brd-rds\(inh\) {border-radius: inherit;}
+.brd-rds\(int\) {border-radius: initial;}
+.brd-rds\(uns\) {border-radius: unset;}
+
+.brd-t-l-rds\(0\) {border-top-left-radius: 0;}
+.brd-t-l-rds\(inh\) {border-top-left-radius: inherit;}
+.brd-t-l-rds\(int\) {border-top-left-radius: initial;}
+.brd-t-l-rds\(uns\) {border-top-left-radius: unset;}
+.brd-t-l-rds\(rvt\) {border-top-left-radius: revert;}
+
+.brd-t-r-rds\(0\) {border-top-right-radius: 0;}
+.brd-t-r-rds\(inh\) {border-top-right-radius: inherit;}
+.brd-t-r-rds\(int\) {border-top-right-radius: initial;}
+.brd-t-r-rds\(uns\) {border-top-right-radius: unset;}
+.brd-t-r-rds\(rvt\) {border-top-right-radius: revert;}
+
+.brd-b-r-rds\(0\) {border-bottom-right-radius: 0;}
+.brd-b-r-rds\(inh\) {border-bottom-right-radius: inherit;}
+.brd-b-r-rds\(int\) {border-bottom-right-radius: initial;}
+.brd-b-r-rds\(uns\) {border-bottom-right-radius: unset;}
+.brd-b-r-rds\(rvt\) {border-bottom-right-radius: revert;}
+
+.brd-b-l-rds\(0\) {border-bottom-left-radius: 0;}
+.brd-b-l-rds\(inh\) {border-bottom-left-radius: inherit;}
+.brd-b-l-rds\(int\) {border-bottom-left-radius: initial;}
+.brd-b-l-rds\(uns\) {border-bottom-left-radius: unset;}
+.brd-b-l-rds\(rvt\) {border-bottom-left-radius: revert;}
+
+/*========== typography  ==========*/
+
+.f\(cpt\) {font: caption;}
+.f\(icn\) {font: icon;}
+.f\(men\) {font: menu;}
+.f\(mss-bx\) {font: message-box;}
+.f\(sml-cpt\) {font: small-caption;}
+.f\(stat-bar\) {font: status-bar;}
+
+.f-fml\(serif\) {font-family: serif;}
+.f-fml\(sans-serif\) {font-family: sans-serif;}
+.f-fml\(monospace\) {font-family: monospace;}
+.f-fml\(cursive\) {font-family: cursive;}
+.f-fml\(fantasy\) {font-family: fantasy;}
+.f-fml\(system-ui\) {font-family: system-ui;}
+.f-fml\(emoji\) {font-family: emoji;}
+.f-fml\(math\) {font-family: math;}
+.f-fml\(fangsong\) {font-family: fangsong;}
+.f-fml\(inh\) {font-family: inherit;}
+.f-fml\(int\) {font-family: initial;}
+.f-fml\(uns\) {font-family: unset;}
+
+.f-s\(nrm\) {font-style: normal;}
+.f-s\(itl\) {font-style: italic;}
+.f-s\(obl\) {font-style: oblique;}
+.f-s\(inh\) {font-style: inherit;}
+.f-s\(int\) {font-style: initial;}
+.f-s\(uns\) {font-style: unset;}
+
+.f-w\(nrm\) {font-weight: normal;}
+.f-w\(bld\) {font-weight: bold;}
+.f-w\(lgr\) {font-weight: lighter;}
+.f-w\(bldr\) {font-weight: bolder;}
+.f-w\(inh\) {font-weight: inherit;}
+.f-w\(int\) {font-weight: initial;}
+.f-w\(uns\) {font-weight: unset;}
+
+.f-str\(ult-cnd\) {font-stretch: ultra-condensed;}
+.f-str\(ext-cnd\) {font-stretch: extra-condensed;}
+.f-str\(cnd\) {font-stretch: condensed;}
+.f-str\(sm-cnd\) {font-stretch: semi-condensed;}
+.f-str\(nrm\) {font-stretch: normal;}
+.f-str\(sm-exp\) {font-stretch: semi-expanded;}
+.f-str\(exp\) {font-stretch: expanded;}
+.f-str\(ext-exp\) {font-stretch: extra-expanded;}
+.f-str\(ult-exp\) {font-stretch: ultra-expanded;}
+.f-str\(inh\) {font-stretch: inherit;}
+.f-str\(int\) {font-stretch: initial;}
+.f-str\(uns\) {font-stretch: unset;}
+.f-str\(rvt\) {font-stretch: revert;}
+
+.f-sz\(0\) {font-size: 0;}
+.f-sz\(xx-sml\) {font-size: xx-small;}
+.f-sz\(x-sml\) {font-size: x-small;}
+.f-sz\(sml\) {font-size: small;}
+.f-sz\(mdm\) {font-size: medium;}
+.f-sz\(lrg\) {font-size: large;}
+.f-sz\(x-lrg\) {font-size: x-large;}
+.f-sz\(xx-lrg\) {font-size: xx-large;}
+.f-sz\(lrgr\) {font-size: larger;}
+.f-sz\(smll\) {font-size: smaller;}
+.f-sz\(inh\) {font-size: inherit;}
+.f-sz\(int\) {font-size: initial;}
+.f-sz\(uns\) {font-size: unset;}
+
+.ln-h\(0\) {line-height: 0;}
+.ln-h\(nrm\) {line-height: normal;}
+.ln-h\(inh\) {line-height: inherit;}
+.ln-h\(int\) {line-height: initial;}
+.ln-h\(uns\) {line-height: unset;}
+
+.txt-alg\(l\) {text-align: left;}
+.txt-alg\(r\) {text-align: right;}
+.txt-alg\(cn\) {text-align: center;}
+.txt-alg\(j\) {text-align: justify;}
+.txt-alg\(st\) {text-align: start;}
+.txt-alg\(end\) {text-align: end;}
+.txt-alg\(mtc-prn\) {text-align: match-parent;}
+.txt-alg\(st\ end\) {text-align: start end;}
+.txt-alg\(\.\) {text-align: ".";}
+.txt-alg\(st\.\) {text-align: start ".";}
+.txt-alg\(\.end\) {text-align: "." end;}
+.txt-alg\(inh\) {text-align: inherit;}
+
+.txt-dcr\(n\) {text-decoration: none;}
+.txt-dcr\(inh\) {text-decoration: inherit;}
+.txt-dcr\(int\) {text-decoration: initial;}
+.txt-dcr\(uns\) {text-decoration: unset;}
+.txt-dcr\(rvt\) {text-decoration: revert;}
+
+.txt-dcr-c\(trp\) {text-decoration-color: transparent;}
+.txt-dcr-c\(crr\) {text-decoration-color: currentColor;}
+.txt-dcr-c\(inh\) {text-decoration-color: inherit;}
+.txt-dcr-c\(int\) {text-decoration-color: initial;}
+.txt-dcr-c\(uns\) {text-decoration-color: unset;}
+.txt-dcr-c\(rvt\) {text-decoration-color: revert;}
+
+.txt-dcr-ln\(n\) {text-decoration-line: none;}
+.txt-dcr-ln\(undln\) {text-decoration-line: underline;}
+.txt-dcr-ln\(ovrln\) {text-decoration-line: overline;}
+.txt-dcr-ln\(ln-thr\) {text-decoration-line: line-through;}
+.txt-dcr-ln\(bln\) {text-decoration-line: blink;}
+.txt-dcr-ln\(undln\ ovrln\) {text-decoration-line: underline overline;}
+.txt-dcr-ln\(ovrln\ undln\ ln-thr\) {text-decoration-line: overline underline line-through;}
+.txt-dcr-ln\(inh\) {text-decoration-line: inherit;}
+.txt-dcr-ln\(int\) {text-decoration-line: initial;}
+.txt-dcr-ln\(uns\) {text-decoration-line: unset;}
+.txt-dcr-ln\(rvt\) {text-decoration-line: revert;}
+
+.txt-dcr-s\(sld\) {text-decoration-style: solid;}
+.txt-dcr-s\(dbl\) {text-decoration-style: double;}
+.txt-dcr-s\(dtt\) {text-decoration-style: dotted;}
+.txt-dcr-s\(dsh\) {text-decoration-style: dashed;}
+.txt-dcr-s\(wv\) {text-decoration-style: wavy;}
+.txt-dcr-s\(inh\) {text-decoration-style: inherit;}
+.txt-dcr-s\(int\) {text-decoration-style: initial;}
+.txt-dcr-s\(uns\) {text-decoration-style: unset;}
+.txt-dcr-s\(rvt\) {text-decoration-style: revert;}
+
+.txt-dcr-thck\(a\) {text-decoration-thickness: auto;}
+.txt-dcr-thck\(frm-f\) {text-decoration-thickness: from-font;}
+.txt-dcr-thck\(inh\) {text-decoration-thickness: inherit;}
+.txt-dcr-thck\(int\) {text-decoration-thickness: initial;}
+.txt-dcr-thck\(uns\) {text-decoration-thickness: unset;}
+.txt-dcr-thck\(rvt\) {text-decoration-thickness: revert;}
+
+.txt-ind\(inh\) {text-indent: inherit;}
+.txt-ind\(int\) {text-indent: initial;}
+.txt-ind\(uns\) {text-indent: unset;}
+
+.txt-shd\(inh\) {text-shadow: inherit;}
+.txt-shd\(int\) {text-shadow: initial;}
+.txt-shd\(uns\) {text-shadow: unset;}
+
+
+/*========== decoration  ==========*/
+
+.bck-att\(scr\) {background-attachment: scroll;}
+.bck-att\(fxd\) {background-attachment: fixed;}
+.bck-att\(lcl\) {background-attachment: local;}
+.bck-att\(inh\) {background-attachment: inherit;}
+.bck-att\(int\) {background-attachment: initial;}
+.bck-att\(uns\) {background-attachment: unset;}
+
+.bck-img\(n\) {background-image: none;}
+.bck-img\(inh\) {background-image: inherit;}
+
+.bck-clp\(brd-bx\) {background-clip: border-box;}
+.bck-clp\(p-bx\) {background-clip: padding-box;}
+.bck-clp\(cnt-bx\) {background-clip: content-box;}
+.bck-clp\(txt\) {background-clip: text;}
+.bck-clp\(inh\) {background-clip: inherit;}
+.bck-clp\(int\) {background-clip: initial;}
+.bck-clp\(uns\) {background-clip: unset;}
+
+.bck-c\(crr\) {background-color: currentColor;}
+.bck-c\(trp\) {background-color: transparent;}
+.bck-c\(inh\) {background-color: inherit;}
+.bck-c\(int\) {background-color: initial;}
+.bck-c\(uns\) {background-color: unset;}
+
+.bck-org\(brd-bx\) {background-origin: border-box;}
+.bck-org\(p-bx\) {background-origin: padding-box;}
+.bck-org\(cnt-bx\) {background-origin: content-box;}
+.bck-org\(inh\) {background-origin: inherit;}
+.bck-org\(int\) {background-origin: initial;}
+.bck-org\(uns\) {background-origin: unset;}
+
+.bck-pst\(t\) {background-position: top;}
+.bck-pst\(r\) {background-position: right;}
+.bck-pst\(b\) {background-position: bottom;}
+.bck-pst\(l\) {background-position: left;}
+.bck-pst\(cn\) {background-position: center;}
+.bck-pst\(inh\) {background-position: inherit;}
+.bck-pst\(int\) {background-position: initial;}
+.bck-pst\(uns\) {background-position: unset;}
+
+.bck-rpt\(rpt-x\) {background-repeat: repeat-x;}
+.bck-rpt\(rpt-y\) {background-repeat: repeat-y;}
+.bck-rpt\(rpt\) {background-repeat: repeat;}
+.bck-rpt\(spc\) {background-repeat: space;}
+.bck-rpt\(rnd\) {background-repeat: round;}
+.bck-rpt\(no-rpt\) {background-repeat: no-repeat;}
+.bck-rpt\(inh\) {background-repeat: inherit;}
+.bck-rpt\(int\) {background-repeat: initial;}
+.bck-rpt\(uns\) {background-repeat: unset;}
+
+.bck-sz\(cvr\) {background-size: cover;}
+.bck-sz\(cntn\) {background-size: contain;}
+.bck-sz\(a\) {background-size: auto;}
+.bck-sz\(inh\) {background-size: inherit;}
+.bck-sz\(int\) {background-size: initial;}
+.bck-sz\(uns\) {background-size: unset;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
